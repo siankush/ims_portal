@@ -36,6 +36,7 @@ class User extends Entity
         'address' => true,
         'password' => true,
         'status' => true,
+        'contacts_listing' => true,
     ];
 
     /**

@@ -33,8 +33,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->css(['vendors/feather/feather','vendors/ti-icons/css/themify-icons','vendors/css/vendor.bundle.base',
     'vendors/datatables.net-bs4/dataTables.bootstrap4','vendors/ti-icons/css/themify-icons','asset/select.dataTables.min',
     'asset/vertical-layout-light/style', 'cake']) ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+   
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>

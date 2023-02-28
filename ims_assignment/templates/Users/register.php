@@ -8,7 +8,6 @@
                 <img src="<?= $baseurl ?>img/images/logo.svg" alt="logo">
               </div>
               <h4>New here?</h4>
-              <form class="pt-3">
               <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
                 <?php echo $this->Form->create($user)?>
                 <div class="form-group">                  
@@ -40,7 +39,6 @@
                   Already have an account? <a href="login" class="text-primary">Login</a>
                 </div>
                 <?= $this->Form->end() ?> 
-                <form>
             </div>
           </div>
         </div>
