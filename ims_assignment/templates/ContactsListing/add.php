@@ -364,8 +364,7 @@
                 <?php echo $this->Form->create($contactsListing)?>
         
                 <div class="form-group">                  
-                <?php                     echo $this->Form->control('user_id', ['options' => $users ,'class'=>'form-control']);
- ?>
+                <?php echo $this->Form->control('user_id', ['options' => $users ,'class'=>'form-control']); ?>
                 </div>
                 <div class="form-group">                  
                 <?php echo $this->Form->control("name",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Name']); ?>
