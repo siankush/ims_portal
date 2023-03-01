@@ -5,35 +5,6 @@
  * @var \Cake\Collection\CollectionInterface|string[] $users
  */
 ?>
-<!-- <div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Contacts Listing'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
-    <div class="column-responsive column-80">
-        <div class="contactsListing form content">
-            <?= $this->Form->create($contactsListing) ?>
-            <fieldset>
-                <legend><?= __('Add Contacts Listing') ?></legend>
-                <?php
-                    echo $this->Form->control('user_id', ['options' => $users]);
-                    echo $this->Form->control('name');
-                    echo $this->Form->control('email');
-                    echo $this->Form->control('phone');
-                    echo $this->Form->control('address');
-                    echo $this->Form->control('status');
-                    echo $this->Form->control('created_at');
-                ?>
-            </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
-            <?= $this->Form->end() ?>
-        </div>
-    </div>
-</div> -->
-
-
 
 <div class="container-scroller">
     <!-- partial:../../partials/_navbar.html -->
@@ -352,8 +323,8 @@
           <div class="row">
 
          <div class="col-12">
-      <div class="content-wrapper d-flex align-items-center auth px-0">
-        <div class="row w-100 mx-0">
+        <div class="content-wrapper d-flex align-items-center auth px-0">
+         <div class="row w-100 mx-0">
           <div class="col-lg-6 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
@@ -364,7 +335,7 @@
                 <?php echo $this->Form->create($contactsListing)?>
         
                 <div class="form-group">                  
-                <?php echo $this->Form->control('user_id', ['options' => $users ,'class'=>'form-control']); ?>
+                <?php echo $this->Form->control('user_id', ['label'=>false,'options' => $users ,'class'=>'form-control']); ?>
                 </div>
                 <div class="form-group">                  
                 <?php echo $this->Form->control("name",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Name']); ?>

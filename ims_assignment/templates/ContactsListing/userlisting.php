@@ -1,322 +1,14 @@
 
-  <div class="container-scroller">
+<div class="container-scroller" id="change-status">
     <!-- partial:../../partials/_navbar.html -->
-    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><?php echo $this->Html->image('images/logo.svg',['class'=>'mr-2','alt'=>'logo'])?></a>
-
-        <a class="navbar-brand brand-logo-mini" href="../../index.html"><?php echo $this->Html->image('images/logo-mini.svg',['alt'=>'logo'])?></a>
-        
-      </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-          <span class="icon-menu"></span>
-        </button>
-        <ul class="navbar-nav mr-lg-2">
-          <li class="nav-item nav-search d-none d-lg-block">
-            <div class="input-group">
-              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
-                <span class="input-group-text" id="search">
-                  <i class="icon-search"></i>
-                </span>
-              </div>
-              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav navbar-nav-right">
-          <li class="nav-item dropdown">
-            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
-              <i class="icon-bell mx-0"></i>
-              <span class="count"></span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
-              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="ti-info-alt mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Application Error</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Just now
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="ti-settings mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Settings</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    Private message
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="ti-user mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    2 days ago
-                  </p>
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="nav-item nav-profile dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <?php echo $this->Html->image('images/faces/face28.jpg',['alt'=>'profile'])?>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a class="dropdown-item">
-                <i class="ti-settings text-primary"></i>
-                Settings
-              </a>
-              <a class="dropdown-item">
-                <i class="ti-power-off text-primary"></i>
-                Logout
-              </a>
-            </div>
-          </li>
-          <li class="nav-item nav-settings d-none d-lg-flex">
-            <a class="nav-link" href="#">
-              <i class="icon-ellipsis"></i>
-            </a>
-          </li>
-        </ul>
-        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-          <span class="icon-menu"></span>
-        </button>
-      </div>
-    </nav>
-    <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-      <!-- partial:../../partials/_settings-panel.html -->
-      <div class="theme-setting-wrapper">
-        <div id="settings-trigger"><i class="ti-settings"></i></div>
-        <div id="theme-settings" class="settings-panel">
-          <i class="settings-close ti-close"></i>
-          <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
-          <p class="settings-heading mt-2">HEADER SKINS</p>
-          <div class="color-tiles mx-0 px-4">
-            <div class="tiles success"></div>
-            <div class="tiles warning"></div>
-            <div class="tiles danger"></div>
-            <div class="tiles info"></div>
-            <div class="tiles dark"></div>
-            <div class="tiles default"></div>
-          </div>
-        </div>
-      </div>
-      <div id="right-sidebar" class="settings-panel">
-        <i class="settings-close ti-close"></i>
-        <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="todo-tab" data-toggle="tab" href="#todo-section" role="tab" aria-controls="todo-section" aria-expanded="true">TO DO LIST</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="chats-tab" data-toggle="tab" href="#chats-section" role="tab" aria-controls="chats-section">CHATS</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="setting-content">
-          <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
-            <div class="add-items d-flex px-3 mb-0">
-              <form class="form w-100">
-                <div class="form-group d-flex">
-                  <input type="text" class="form-control todo-list-input" placeholder="Add To-do">
-                  <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">Add</button>
-                </div>
-              </form>
-            </div>
-            <div class="list-wrapper px-3">
-              <ul class="d-flex flex-column-reverse todo-list">
-                <li>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="checkbox" type="checkbox">
-                      Team review meeting at 3.00 PM
-                    </label>
-                  </div>
-                  <i class="remove ti-close"></i>
-                </li>
-                <li>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="checkbox" type="checkbox">
-                      Prepare for presentation
-                    </label>
-                  </div>
-                  <i class="remove ti-close"></i>
-                </li>
-                <li>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="checkbox" type="checkbox">
-                      Resolve all the low priority tickets due today
-                    </label>
-                  </div>
-                  <i class="remove ti-close"></i>
-                </li>
-                <li class="completed">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="checkbox" type="checkbox" checked>
-                      Schedule meeting for next week
-                    </label>
-                  </div>
-                  <i class="remove ti-close"></i>
-                </li>
-                <li class="completed">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="checkbox" type="checkbox" checked>
-                      Project review
-                    </label>
-                  </div>
-                  <i class="remove ti-close"></i>
-                </li>
-              </ul>
-            </div>
-            <h4 class="px-3 text-muted mt-5 font-weight-light mb-0">Events</h4>
-            <div class="events pt-4 px-3">
-              <div class="wrapper d-flex mb-2">
-                <i class="ti-control-record text-primary mr-2"></i>
-                <span>Feb 11 2018</span>
-              </div>
-              <p class="mb-0 font-weight-thin text-gray">Creating component page build a js</p>
-              <p class="text-gray mb-0">The total number of sessions</p>
-            </div>
-            <div class="events pt-4 px-3">
-              <div class="wrapper d-flex mb-2">
-                <i class="ti-control-record text-primary mr-2"></i>
-                <span>Feb 7 2018</span>
-              </div>
-              <p class="mb-0 font-weight-thin text-gray">Meeting with Alisa</p>
-              <p class="text-gray mb-0 ">Call Sarah Graves</p>
-            </div>
-          </div>
-          <!-- To do section tab ends -->
-          <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
-            <div class="d-flex align-items-center justify-content-between border-bottom">
-              <p class="settings-heading border-top-0 mb-3 pl-3 pt-0 border-bottom-0 pb-0">Friends</p>
-              <small class="settings-heading border-top-0 mb-3 pt-0 border-bottom-0 pb-0 pr-3 font-weight-normal">See All</small>
-            </div>
-            <ul class="chat-list">
-              <li class="list active">
-                <div class="profile"><img src="../../images/faces/face1.jpg" alt="image"><span class="online"></span></div>
-                <div class="info">
-                  <p>Thomas Douglas</p>
-                  <p>Available</p>
-                </div>
-                <small class="text-muted my-auto">19 min</small>
-              </li>
-              <li class="list">
-                <div class="profile"><img src="../../images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
-                <div class="info">
-                  <div class="wrapper d-flex">
-                    <p>Catherine</p>
-                  </div>
-                  <p>Away</p>
-                </div>
-                <div class="badge badge-success badge-pill my-auto mx-2">4</div>
-                <small class="text-muted my-auto">23 min</small>
-              </li>
-              <li class="list">
-                <div class="profile"><img src="../../images/faces/face3.jpg" alt="image"><span class="online"></span></div>
-                <div class="info">
-                  <p>Daniel Russell</p>
-                  <p>Available</p>
-                </div>
-                <small class="text-muted my-auto">14 min</small>
-              </li>
-              <li class="list">
-                <div class="profile"><img src="../../images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
-                <div class="info">
-                  <p>James Richardson</p>
-                  <p>Away</p>
-                </div>
-                <small class="text-muted my-auto">2 min</small>
-              </li>
-              <li class="list">
-                <div class="profile"><img src="../../images/faces/face5.jpg" alt="image"><span class="online"></span></div>
-                <div class="info">
-                  <p>Madeline Kennedy</p>
-                  <p>Available</p>
-                </div>
-                <small class="text-muted my-auto">5 min</small>
-              </li>
-              <li class="list">
-                <div class="profile"><img src="../../images/faces/face6.jpg" alt="image"><span class="online"></span></div>
-                <div class="info">
-                  <p>Sarah Graves</p>
-                  <p>Available</p>
-                </div>
-                <small class="text-muted my-auto">47 min</small>
-              </li>
-            </ul>
-          </div>
-          <!-- chat tab ends -->
-        </div>
-      </div>
-      <!-- partial -->
-      <!-- partial:../../partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="dashboard">
-              <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Tables</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="userlisting">Basic table</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="icon-head menu-icon"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="login"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="register"> Register </a></li>
-              </ul>
-            </div>
-          </li>
-        
-        </ul>
-      </nav>
+      <?php echo $this->element('sidebar'); ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
 
               
-              <div class="col-lg-12 grid-margin stretch-card">
+            <div class="col-lg-12 grid-margin stretch-card">
                   <div class="card">
                       <div class="card-body">
                     <?= $this->Html->link(__('Add'), ['controller'=>'ContactsListing','action' => 'add'], ['class' => 'btn btn-primary float-right']) ?>
@@ -349,10 +41,12 @@
                         </tr>
                       </thead>
                       <tbody>
+                        <?php $n = $this->Paginator->counter('{{start}}') ?>
                         <?php foreach ($contactsListing  as $contactlist) :?> 
-                        <tr>
+                        <?php if($contactlist->deletestatus == 1) :?>
+                        <tr id="data<?php echo $contactlist->id;?>">
                           <td class="py-1">
-                          <?= h($contactlist->id); ?>
+                          <?= h($n); ?>
                           </td>
                           <td>
                             <?= h($contactlist->name); ?>
@@ -367,37 +61,244 @@
                           <?= h($contactlist->address); ?>
                           </td>
                           <td class="align-middle text-sm">
-                          <?= h($contactlist->status); ?>
+                          <!-- <?= h($contactlist->status); ?>
+                          <span class="badge badge-sm bg-gradient-success">Online</span>
+                          <span class="badge badge-sm bg-gradient-secondary">Offline</span> -->
+                          <?php  if($contactlist->status == 1) : ?>
+                            
+                            <?= $this->Form->postLink(__('Online'),['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $contactlist->id)]) ?>
+                            <?php else : ?>
+                                
+                                <?= $this->Form->postLink(__('Offline'), ['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $contactlist->id)]) ?>
+                                <?php endif; ?> 
+
                          </td>
                           <td>
-                          <i class="fa-solid fa-pen-to-square" style="color: orange; font-size: 18px;"></i>
+                          <i class="fa-solid fa-pen-to-square edit-user" data-bs-toggle="modal" data-bs-target="#myModal" style="color: orange; font-size: 18px;" edituser-id ="<?= $contactlist->id ?>"></i>
                           <i class="fa-solid fa-eye p-2" style="color: blue; font-size: 18px;"></i>
-                          <i class="fa-solid fa-trash" style="color: red; font-size: 18px;"></i>
+                          <i class="fa-solid fa-trash delete-user" style="color: red; font-size: 18px;" status-id ="<?= $contactlist->deletestatus?>" deleteuser-id ="<?= $contactlist->id?>"></i>
                           </td>
                         </tr>
+                        <?php endif; ?>
+                        <?php $n++; ?>
                         <?php endforeach; ?>
                       </tbody>
                     </table>
+                   
                   </div>
+                  <!-- <?= $this->Html->css('cake') ?> -->
+                    <div class="paginator">
+                <ul class="pagination">
+                <?= $this->Paginator->first('<< ' . __('first')) ?>
+                <?= $this->Paginator->prev('< ' . __('previous')) ?>
+                <?= $this->Paginator->numbers() ?>
+                <?= $this->Paginator->next(__('next') . ' >') ?>
+                <?= $this->Paginator->last(__('last') . ' >>') ?>
+                </ul>
+                <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
+          
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
+        <!-- <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
           </div>
-        </footer>
+        </footer> -->
         <!-- partial -->
       </div>
       <!-- main-panel ends -->
     </div>
     <!-- page-body-wrapper ends -->
-  </div>
+
   <!-- container-scroller -->
   <!-- plugins:js -->
+ 
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Edit</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+       </div>
+
+       <!-- Modal body -->
+       <div class="modal-body">
+        
+
+       <div class="content-wrapper d-flex align-items-center auth px-0">
+         <div class="row w-100 mx-0">
+          <div class="col-lg-12 mx-auto">
+            <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+              <div class="brand-logo">
+                <?php echo $this->Html->image('images/logo.svg',['alt'=>'logo'])?>
+              </div>
+                <?php echo $this->Form->create($contactsListing,['id'=>'formid'])?>
+                <input type="hidden" id="contactlist_id" name="id">
+                
+                <!-- <div class="form-group">                  
+                <?php echo $this->Form->control('user_id', ['label'=>false,'options' => $users ,'class'=>'form-control','id'=>'']); ?>
+                </div> -->
+                <div class="form-group">                  
+                <?php echo $this->Form->control("name",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Name','id'=>'name']); ?>
+                </div>
+                <div class="form-group">                
+                  <?php echo $this->Form->control("email",['label'=>false,'id'=>'exampleInputEmail1', 'class'=>'form-control form-control-lg','placeholder'=>'Email','id'=>'email']); ?>                  
+                </div>
+                <div class="form-group">                  
+                <?php echo $this->Form->control("phone",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Phone','id'=>'phone']); ?>
+                </div>
+                <div class="form-group">                  
+                  <?php echo $this->Form->control("address",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Address','id'=>'address']); ?>                  
+                </div>
+
+                <div class="mt-3">
+                  <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a> -->
+                  <?= $this->Form->button(__('Submit'),['class'=>'btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn edit-data']) ?>
+
+                </div>
+                <?= $this->Form->end() ?> 
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div> 
+
+<script type="text/javascript">
+
+$(document).on("click", ".delete-user", function(){
+  var csrfToken = $('meta[name="csrfToken"]').attr('content');
+     $.ajaxSetup({
+        headers: {
+          'X-CSRF-TOKEN': csrfToken // this is defined in app.php as a js variable
+        }
+      });
+    var formData = $(this).attr("deleteuser-id");
+    var statusData = $(this).attr("status-id");
+    // alert(formData+statusData);
+    // alert(formData);
+    // var statusData = $(this).attr("status-id");
+
+      swal({
+      title: "Are you sure to delete this  of ?",
+      text: "Delete Confirmation?",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#DD6B55",
+      confirmButtonText: "Delete",
+      closeOnConfirm: false
+      },
+      function() {
+            $.ajax({
+                url: "http://localhost:8765/ContactsListing/delete",
+                data: {'id':formData, 'deletestatus': statusData},
+                type: "JSON",
+                method: "post",
+                success:function(response){
+                  swal("Done!","It was succesfully deleted!","success");
+                  var dataArr = JSON.parse(response);
+                  if(dataArr.status ==1 ){
+                    $("#data"+formData).hide();
+        
+                  }
+                }
+            }).done(function(data) {
+                swal("Deleted!", "Data successfully Deleted!", "success");
+              })
+              .error(function(data) {
+                swal("Oops", "We couldn't connect to the server!", "error");
+              });
+                  }
+      )
+});  
+
+$(document).on("click", ".edit-user", function(){
+  var csrfToken = $('meta[name="csrfToken"]').attr('content');
+  $.ajaxSetup({
+    headers: {
+      'X-CSRF-TOKEN': csrfToken // this is defined in app.php as a js variable
+    }
+  });
+  
+  var formData = $(this).attr("edituser-id");
+  
+  
+  $.ajax({
+    url: "http://localhost:8765/ContactsListing/getuser",
+    method: "get",
+    data: {'id':formData},
+    type: "JSON",
+    success:function(response){
+
+      contactsListing = $.parseJSON(response);
+             
+                $('#name').val(contactsListing['name']);
+                // $('#brand').val(car['brand']['name']);
+                $('#email').val(contactsListing['email']);
+                $('#phone').val(contactsListing['phone']);
+                $('#address').val(contactsListing['address']);
+                $('#contactlist_id').val(contactsListing['id']);
+
+    }
+  });
+});
+
+$(document).on("click", ".edit-data", function(e){
+  e.preventDefault();
+  var csrfToken = $('meta[name="csrfToken"]').attr('content');
+  $.ajaxSetup({
+    headers: {
+      'X-CSRF-TOKEN': csrfToken // this is defined in app.php as a js variable
+    }
+  });
+  // var formData = new FormData(form);
+   var formData = $("#formid").serialize();
+   
+  //  alert(formData);
+  $.ajax({
+ 
+    url: "http://localhost:8765/ContactsListing/edituser",
+    type: "JSON",
+    method: "POST",
+    data: formData,
+    success: function (response) {
+  
+       var data = JSON.parse(response);
+      // alert(data);
+      
+         if (data['status'] == 0) {
+              alert(data['message']);
+          } else {
+           swal("Good job!", "The contactlisting has been saved!", "success");
+ 
+            }
+             $('#change-status').load('/ContactsListing/userlisting #change-status');
+               $('#myModal').hide();
+               $('.modal-backdrop').remove();
+ 
+                 }
+                });
+                // return false;
+ });
+</script>  
 

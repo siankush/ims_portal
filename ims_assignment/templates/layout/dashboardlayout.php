@@ -24,17 +24,24 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <title>
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
+    <link rel="shortcut icon" href="<?= $baseurl ?>img/images/favicon.png" />
+
+
     </title>
     <?= $this->Html->meta('icon') ?>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet"> 
+    <?php echo $this->Html->meta('csrfToken', $this->request->getAttribute('csrfToken')); ?>
+    
     <!-- <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?> -->
-    <?= $this->Html->css(['vendors/feather/feather','vendors/ti-icons/css/themify-icons','vendors/css/vendor.bundle.base',
+    <?= $this->Html->css(['cake','vendors/feather/feather','vendors/ti-icons/css/themify-icons','vendors/css/vendor.bundle.base',
     'vendors/datatables.net-bs4/dataTables.bootstrap4','vendors/ti-icons/css/themify-icons','asset/select.dataTables.min',
-    'asset/vertical-layout-light/style', 'cake']) ?>
+    'asset/vertical-layout-light/style']) ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
    
@@ -56,6 +63,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="container-fluid p-0">
             <?= $this->Flash->render() ?>
             <?= $this->fetch('content') ?>
+
         </div>
     </main>
     <footer>

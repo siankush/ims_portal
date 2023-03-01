@@ -28,7 +28,9 @@ a:active  {
     -webkit-transition:all 0.2s easeout;
     transition:all 0.2s ease-out;
 }
-
+.pagination {
+    margin-top: 30px !important;
+  }
 .side-nav a,
 .top-nav-links a,
 th a,
@@ -139,7 +141,10 @@ th {
     color: #cc1f1a;
     border-color: #ef5753;
 }
-
+.badge.badge-sm.bg-gradient-success {
+    color: white;
+    font-weight: 800;
+  }
 /* Forms */
 .input.radio,
 .input.checkbox {
