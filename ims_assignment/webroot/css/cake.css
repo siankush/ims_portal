@@ -113,10 +113,8 @@ th {
 /* Flash messages */
 .message {
     padding: 1rem;
-
     background: #eff8ff;
     color: #2779bd;
-
     border-color: #6cb2eb;
     border-width: 1px;
     border-style: solid;
@@ -130,6 +128,9 @@ th {
     background: #e3fcec;
     color: #1f9d55;
     border-color: #51d88a;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
 }
 .message.warning {
     background: #fffabc;
@@ -140,6 +141,9 @@ th {
     background: #fcebea;
     color: #cc1f1a;
     border-color: #ef5753;
+}
+.error-message{
+    color: red;
 }
 .badge.badge-sm.bg-gradient-success {
     color: white;

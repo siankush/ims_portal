@@ -19,7 +19,7 @@ class ContactsListingController extends AppController
         parent:: initialize();
         $this->base_url = Router::url("/", true);
         $this->set("baseurl", $this->base_url);
-        $this->viewBuilder()->setLayout('dashboardlayout');
+       
         $this->loadComponent('Flash');
         
     }
@@ -41,6 +41,7 @@ class ContactsListingController extends AppController
 
     public function userlisting(){
     
+    $this->viewBuilder()->setLayout('dashboardlayout');
 
         // $this->paginate = [
         //     'contain' => ['Users'],

@@ -65,25 +65,45 @@ class ContactsListingTable extends Table
             ->scalar('name')
             ->maxLength('name', 50)
             ->requirePresence('name', 'create')
-            ->notEmptyString('name');
+            ->notEmptyString('name','please enter name')
+            ->add('name', [
+                'characters' => [
+                    'rule'    => ['custom', '/^[A-Z_ ]+$/i'],
+                    'allowEmpty' => false,
+                    'last' => true,
+                    'message' => 'Please Enter characters only'
+                ],
+                'length' => [
+                    'rule' => ['minLength', 2],
+                    'last' => true,
+                    'message' => 'Name need to be at least 2 characters long',
+                ],
+            ]);
 
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
-            ->notEmptyString('email')
-            ->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->notEmptyString('email','please enter email')
+            ->add('email', 'unique', ['rule' => 'validateUnique', 
+            'provider' => 'table',
+            'message' => 'Email already exist'
+        ]);
 
         $validator
             ->scalar('phone')
-            ->maxLength('phone', 50)
+            ->maxLength('phone', 10, 'Maxlength 10 digit')
             ->requirePresence('phone', 'create')
-            ->notEmptyString('phone');
+            ->notEmptyString('phone','please enter phone');
+        //     ->add('phone', ['rule' => 'numeric', 
+        //     'provider' => 'table',
+        //     'message' => 'Phone number should numeric',
+        // ]);
 
         $validator
             ->scalar('address')
             ->maxLength('address', 50)
             ->requirePresence('address', 'create')
-            ->notEmptyString('address');
+            ->notEmptyString('address','please enter address');
 
         $validator
             ->scalar('status')

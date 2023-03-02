@@ -61,7 +61,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </nav> -->
     <main class="main">
         <div class="container-fluid p-0">
-            <?= $this->Flash->render() ?>
             <?= $this->fetch('content') ?>
 
         </div>
