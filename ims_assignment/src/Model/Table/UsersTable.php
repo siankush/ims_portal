@@ -40,6 +40,8 @@ class UsersTable extends Table
         $this->setTable('users');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
+
+        $this->hasOne('ContactsListing');
     }
 
     /**
@@ -54,18 +56,48 @@ class UsersTable extends Table
             ->scalar('first_name')
             ->maxLength('first_name', 255)
             ->requirePresence('first_name', 'create')
-            ->notEmptyString('first_name');
+            ->notEmptyString('first_name')
+
+            ->add('first_name', [
+                'characters' => [
+                    'rule'    => ['custom', '/^[A-Z_ ]+$/i'],
+                    'allowEmpty' => false,
+                    'last' => true,
+                    'message' => 'Please Enter characters only'
+                ],
+                'length' => [
+                    'rule' => ['minLength', 2],
+                    'last' => true,
+                    'message' => 'Name need to be at least 2 characters long',
+                ],
+            ]);
 
         $validator
             ->scalar('last_name')
             ->maxLength('last_name', 255)
             ->requirePresence('last_name', 'create')
-            ->notEmptyString('last_name');
+            ->notEmptyString('last_name')
+
+            ->add('last_name', [
+                'characters' => [
+                    'rule'    => ['custom', '/^[A-Z_ ]+$/i'],
+                    'allowEmpty' => false,
+                    'last' => true,
+                    'message' => 'Please Enter characters only'
+                ],
+                'length' => [
+                    'rule' => ['minLength', 2],
+                    'last' => true,
+                    'message' => 'Name need to be at least 2 characters long',
+                ],
+            ]);
 
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
             ->notEmptyString('email');
+
+            
 
         $validator
             ->scalar('contact_number')
@@ -83,13 +115,73 @@ class UsersTable extends Table
             ->scalar('password')
             ->maxLength('password', 255)
             ->requirePresence('password', 'create')
-            ->notEmptyString('password');
+            ->notEmptyString('password')
+
+            ->add('password', [
+                'upperCase' => [
+                    'rule' => function ($value) {
+                        $count = mb_strlen(preg_replace('![^A-Z]+!', '', $value));
+                        if ($count > 0) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    },
+                    'message' => 'Please enter at least one uppercase',
+                ],
+                'lowerCase' => [
+                    'rule' => function ($value) {
+                        $count = mb_strlen(preg_replace('![^a-z]+!', '', $value));
+                        if ($count > 0) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    },
+                    'message' => 'Please enter at least one lowercase',
+                ],
+                'numeric' => [
+                    'rule' => function ($value) {
+                        $count = mb_strlen(preg_replace('![^0-9]+!', '', $value));
+                        if ($count > 0) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    },
+                    'message' => 'Please enter at least one numeric',
+                ],
+                'special' => [
+                    'rule' => function ($value) {
+                        $count = mb_strlen(preg_replace('![^@#*]+!', '', $value));
+                        if ($count > 0) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    },
+                    'message' => 'Please enter at least one special character',
+                ],
+                'minLength' => [
+                    'rule' => ['minLength', 8],
+                    'message' => 'Password need to be 8 characters long',
+                ],
+            ]);
+
+
+            
 
         $validator
-            ->scalar('status')
-            ->maxLength('status', 255)
-            ->requirePresence('status', 'create')
-            ->notEmptyString('status');
+            ->scalar('confirmpassword')
+            ->maxLength('confirmpassword', 255)
+            ->requirePresence('confirmpassword', 'create')
+            ->notEmptyString('confirmpassword');
+
+        // $validator
+        //     ->scalar('status')
+        //     ->maxLength('status', 255)
+        //     ->requirePresence('status', 'create')
+        //     ->notEmptyString('status');
 
         return $validator;
     }

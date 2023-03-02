@@ -8,25 +8,25 @@
                 <img src="<?= $baseurl ?>img/images/logo.svg" alt="logo">
               </div>
               <h4>Hello! let's get started</h4>
-              <h6 class="font-weight-light">Sign in to continue.</h6>
-              <form class="pt-3">
+              <h6 class="font-weight-light">Sign in to continue.</h6>              
               <?php echo $this->Form->create()?>
                 <div class="form-group">
-                <?php echo $this->Form->control("email",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Email']); ?>
-
+                <?php echo $this->Form->control("email",['label'=>false,'id'=>'email', 'class'=>'form-control form-control-lg','placeholder'=>'Email']); ?>
+                  <span id="uemail"></span>
                 </div>
                 <div class="form-group">
-                <?php echo $this->Form->control("password",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Password']); ?>
-
+                <?php echo $this->Form->control("password",['label'=>false,'id'=>'password', 'class'=>'form-control form-control-lg','placeholder'=>'Password']); ?>
+                  <span id="upass"></span>
                 </div>
-                <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN IN</a>
+                <div class="mt-3">                  
+                  <?php echo $this->Form->button(__('Sign In'),['class'=>'btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn',
+                  'id'=>'login'])?>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Don't have an account? <a href="register" class="text-primary">Create</a>
                 </div>
                 <?= $this->Form->end() ?> 
-              </form>
+              
             </div>
           </div>
         </div>
