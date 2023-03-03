@@ -12,7 +12,7 @@
                   <div class="card">
                       <div class="card-body">
                     <?= $this->Html->link(__('Add'), ['controller'=>'ContactsListing','action' => 'add'], ['class' => 'btn btn-primary float-right']) ?>
-                  <h4 class="card-title">Striped Table</h4>
+                  <h4 class="card-title">Contacts Table</h4>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -66,10 +66,10 @@
                           <span class="badge badge-sm bg-gradient-secondary">Offline</span> -->
                           <?php  if($contactlist->status == 1) : ?>
                             
-                            <?= $this->Form->postLink(__('Online'),['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $contactlist->id)]) ?>
+                            <?= $this->Form->postLink(__('Active'),['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $contactlist->id)]) ?>
                             <?php else : ?>
                                 
-                                <?= $this->Form->postLink(__('Offline'), ['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $contactlist->id)]) ?>
+                                <?= $this->Form->postLink(__('Inactive'), ['action' => 'userstatus', $contactlist->id, $contactlist->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $contactlist->id)]) ?>
                                 <?php endif; ?> 
 
                          </td>
@@ -171,9 +171,9 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
+      </div> -->
 
     </div>
   </div>

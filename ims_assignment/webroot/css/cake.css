@@ -145,6 +145,9 @@ th {
 .error-message{
     color: red;
 }
+.error{
+    color: red;
+}
 .badge.badge-sm.bg-gradient-success {
     color: white;
     font-weight: 800;

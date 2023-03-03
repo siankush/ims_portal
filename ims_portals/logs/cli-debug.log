@@ -1,0 +1,900 @@
+2023-02-28 05:36:53 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 79
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:36:53 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:39 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 79
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:39 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:48 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 79
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:48 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:54 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 79
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:54 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:59 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 79
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:38:59 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 79
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:55:16 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:55:16 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:12 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:12 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:32 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:32 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:48 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:56:48 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:26 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:26 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:31 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:31 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:45 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:45 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:51 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-02-28 05:57:51 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 04:47:20 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 04:47:20 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:09 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:09 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:31 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:31 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:50 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:53:50 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:37 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:37 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:43 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:43 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:48 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 05:54:48 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:44 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:44 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:51 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:51 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:58 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-01 06:10:58 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-02 03:51:21 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portal/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-02 03:51:21 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portal/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portal/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portal/bin/cake.php, line 12
+
+2023-03-02 09:09:35 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 09:09:35 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 09:12:51 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 09:12:51 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 09:57:27 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 09:57:27 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 10:02:24 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 10:02:24 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 10:15:49 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 10:15:49 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:01 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:01 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:27 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:27 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:45 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:45 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:47 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:03:47 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:51:30 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 11:51:30 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 12:15:38 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-02 12:15:38 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-03 03:49:57 notice: `Router::prefix()` is deprecated, use the non-static method `RouteBuilder::prefix()` instead.
+/var/www/html/ims_portals/config/routes.php, line: 80
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 880
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+
+2023-03-03 03:49:57 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+/var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line: 892
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/functions.php, line 323
+Cake\Routing\Router::scope() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 841
+Cake\Routing\Router::prefix() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Router.php, line 892
+Cake\Http\BaseApplication::{closure}() /var/www/html/ims_portals/config/routes.php, line 80
+Cake\Http\BaseApplication::routes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 147
+[main] /var/www/html/ims_portals/bin/cake.php, line 12
+

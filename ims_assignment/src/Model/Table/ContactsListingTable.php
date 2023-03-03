@@ -91,13 +91,18 @@ class ContactsListingTable extends Table
 
         $validator
             ->scalar('phone')
-            ->maxLength('phone', 10, 'Maxlength 10 digit')
+            ->maxLength('phone', 10, )
             ->requirePresence('phone', 'create')
-            ->notEmptyString('phone','please enter phone');
-        //     ->add('phone', ['rule' => 'numeric', 
-        //     'provider' => 'table',
-        //     'message' => 'Phone number should numeric',
-        // ]);
+            ->notEmptyString('phone','please enter phone')
+            ->add('phone', [
+            'length' => [
+                'rule' => ['minlength', 10],
+                'message' => 'minlength 10 digit',
+            ],
+            'numeric' => [
+            'message' => 'phone number should numeric',
+            ],
+        ]);
 
         $validator
             ->scalar('address')

@@ -1,5 +1,3 @@
-
-
 $(document).on("click", ".delete-user", function(){
   var csrfToken = $('meta[name="csrfToken"]').attr('content');
      $.ajaxSetup({
@@ -77,6 +75,62 @@ $(document).on("click", ".edit-user", function(){
   });
 });
 
+// $("#formid").validate({
+  
+//   rules: {
+//       name:{
+//           required: true,
+//           minlength : 3,
+//           text: true
+//       },
+
+//       email: {
+//           required : true,
+//           email: true,
+//       }, 
+
+//       phone: {
+//            required: true,
+//            minlength : 10,
+//            number : true,
+//       },
+//       address: {
+//           required : true,
+//       },
+//       // // image: {
+//       // //   required: true,
+//       // // },
+
+      
+     
+//   },
+//   messages: {
+//       name: {
+//           required: "please enter name",
+//           minlength: "length atleast 3 characters",
+//           text: "please enter alphabets",
+//       },
+
+//       email: {
+//           required : "please enter email",
+//           email: "please enter valid email",
+       
+//       },
+
+//       phone :{
+//           required: "please enter phone",
+//           minlength: "phone should 10 digit",
+//           number : "please enter number",
+//       },
+//       address :{
+//         required: "please enter address",
+//       },
+      
+//   }, 
+
+
+// submitHandler: function (e){
+
 $(document).on("click", ".edit-data", function(e){
   e.preventDefault();
   var csrfToken = $('meta[name="csrfToken"]').attr('content');
@@ -113,4 +167,5 @@ $(document).on("click", ".edit-data", function(e){
                  }
                 });
                 // return false;
+          
  });

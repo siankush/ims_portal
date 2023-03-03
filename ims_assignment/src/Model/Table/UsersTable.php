@@ -93,13 +93,26 @@ class UsersTable extends Table
         $validator
             ->email('email')
             ->requirePresence('email', 'create')
-            ->notEmptyString('email','please enter email');
+            ->notEmptyString('email','please enter email')
+            ->add('email', 'unique', ['rule' => 'validateUnique', 
+            'provider' => 'table',
+            'message' => 'Email already exist'
+        ]);
 
         $validator
             ->scalar('contact_number')
-            ->maxLength('contact_number', 255)
+            ->maxLength('contact_number', 10)
             ->requirePresence('contact_number', 'create')
-            ->notEmptyString('contact_number','please enter phone');
+            ->notEmptyString('contact_number','please enter phone')
+            ->add('contact_number', [
+                'length' => [
+                    'rule' => ['minlength', 10],
+                    'message' => 'minlength 10 digit',
+                ],
+                'numeric' => [
+                'message' => 'phone number should numeric',
+                ],
+            ]);
 
         $validator
             ->scalar('address')

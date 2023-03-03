@@ -19,8 +19,8 @@ class ContactsListingController extends AppController
         parent:: initialize();
         $this->base_url = Router::url("/", true);
         $this->set("baseurl", $this->base_url);
+        $this->viewBuilder()->setLayout('dashboardlayout');
        
-        $this->loadComponent('Flash');
         
     }
 
@@ -41,7 +41,6 @@ class ContactsListingController extends AppController
 
     public function userlisting(){
     
-    $this->viewBuilder()->setLayout('dashboardlayout');
 
         // $this->paginate = [
         //     'contain' => ['Users'],
@@ -161,7 +160,7 @@ class ContactsListingController extends AppController
             }
             echo json_encode(array(
                 "status" => 0,
-                "message" => "The car could not be saved. Please, try again.",
+                "message" => "The contactlisting could not be saved. Please, try again.",
             ));
             exit;
         }
