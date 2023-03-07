@@ -22,7 +22,7 @@ $(document).on("click", ".delete-user", function(){
         },
         function() {
               $.ajax({
-                  url: "http://localhost:8765/ContactsListing/delete",
+                  url: "http://localhost:8765/ContactListings/delete",
                   data: {'id':formData, 'deletestatus': statusData},
                   type: "JSON",
                   method: "post",
@@ -56,7 +56,7 @@ $(document).on("click", ".delete-user", function(){
     
     
     $.ajax({
-      url: "http://localhost:8765/ContactsListing/getuser",
+      url: "http://localhost:8765/ContactListings/getuser",
       method: "get",
       data: {'id':formData},
       type: "JSON",
@@ -89,7 +89,7 @@ $(document).on("click", ".delete-user", function(){
     //  alert(formData);
     $.ajax({
    
-      url: "http://localhost:8765/ContactsListing/edituser",
+      url: "http://localhost:8765/ContactListings/edituser",
       type: "JSON",
       method: "POST",
       data: formData,

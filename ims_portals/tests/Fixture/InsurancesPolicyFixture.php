@@ -27,13 +27,12 @@ class InsurancesPolicyFixture extends TestFixture
             [
                 'id' => 1,
                 'insurance_company_id' => 1,
-                'insurance_type_name' => 'Lorem ipsum dolor sit amet',
+                'name' => 'Lorem ipsum dolor sit amet',
                 'insurance_type_code' => 1,
-                'premium' => 1,
-                'effective_date' => 1677754982,
-                'term_length' => 'Lorem ipsum dolor sit amet',
+                'image' => 'Lorem ipsum dolor sit amet',
                 'status' => 'Lorem ipsum dolor sit amet',
                 'deleted' => 'Lorem ipsum dolor sit amet',
+                'created_at' => 1677817546,
             ],
         ];
         parent::init();

@@ -40,6 +40,8 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+        $this->viewBuilder()->setLayout('admin');
+
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
@@ -54,6 +56,8 @@ class UsersController extends AppController
      */
     public function add()
     {
+        $this->loadModel('InsuranceCompanies');
+
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
@@ -64,8 +68,10 @@ class UsersController extends AppController
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
+        $insuranceCompanies = $this->InsuranceCompanies->find('list', ['keyField' => 'id', 'valueField' => 'name']);
+
         $this->set(compact('user'));
-        $this->viewBuilder()->setLayout('admin');
+        $this->viewBuilder()->setLayout('admin','insuranceCompanies');
 
     }
 
@@ -78,6 +84,8 @@ class UsersController extends AppController
      */
     public function edit($id = null)
     {
+        $this->viewBuilder()->setLayout('admin');
+
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
@@ -112,21 +120,88 @@ class UsersController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+    public function logout()
+    {
+        $result = $this->Authentication->getResult();        
+        if ($result && $result->isValid()) {
+            $this->Authentication->logout();
+            return $this->redirect(['controller' => 'Users', 'action' => 'login']);
+        }
+    }
 
     public function login()
     {
         $this->viewBuilder()->setLayout('admin');
 
-        if($this->request->is('post')){
-            $user = $this->Auth->identify();
+        // $this->request->allowMethod(['get','post']);
+        //     $result = $this->Authentication->getResult();    
+        //     if ($result && $result->isValid()) {
+        //         $user = $this->Authentication->getIdentity();
+        //         // dd($user);
+        //         if ($user->status == 0) {
+        //             // $redirect = $this->request->getQuery('redirect', [
+        //             //     'controller' => 'Insurance-Companies',
+        //             //     'action' => 'index',
+        //             // ]);
+        //             return $this->redirect('insurance-companies/index');
+                    
 
-            if($user){
-                $this->Auth->setUser($user);
-                return $this->redirect(['controller'=>'insurances-company','action'=>'index']);
-            }else{
-                $this->Flash->error('Incorrect email and password');
-            }
+                    
+        //         } elseif ($user->status == 1) {
+        //             // $redirect = $this->request->getQuery('redirect', [
+        //             //     'controller' => 'users',
+        //             //     'action' => 'login',
+        //             // ]);
+        //             return $this->redirect(['controller' => 'users','action' => 'login']);
 
+        //         }          
+        //         // return $this->redirect($redirect);
+        //         $this->Flash->error(__('you are not authorised'));
+        //     }
+        //     // display error if user submitted and authentication failed
+        //     if ($this->request->is('post') && !$result->isValid()) {
+        //         $this->Flash->error(__('Invalid username or password'));
+        //         // $this->request->is('post');
+        //     }       
+
+
+        $this->request->allowMethod(['get','post']);
+        $result = $this->Authentication->getResult();    
+        if ($result && $result->isValid()) {
+            $user = $this->Authentication->getIdentity();
+            // dd($user);
+            if ($user->status == 0) {
+                // $redirect = $this->request->getQuery('redirect', [
+                //     'controller' => 'Insurance-Companies',
+                //     'action' => 'index',
+                // ]);
+                return $this->redirect('/insurance-companies/index');
+
+               
+                
+
+                
+            } elseif ($user->status == 1) {
+                // $redirect = $this->request->getQuery('redirect', [
+                //     'controller' => 'users',
+                //     'action' => 'login',
+                // ]);
+                $this->Flash->error(__('you are not authorised'));
+
+                return $this->redirect('admin/users/logout');
+
+
+            }          
+            // return $this->redirect($redirect);
+            $this->Flash->error(__('you are not authorised'));
         }
+        // display error if user submitted and authentication failed
+        if ($this->request->is('post') && !$result->isValid()) {
+            $this->Flash->error(__('Invalid username or password'));
+            // $this->request->is('post');
+        }               
     }
+
+
+    
 }

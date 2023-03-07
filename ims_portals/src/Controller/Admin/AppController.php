@@ -66,7 +66,7 @@ class AppController extends Controller
             ]
         ]);
 
-        $this->Auth->allow(['login','']);
+        $this->Auth->allow(['login','insurances-company']);
         $this->set('email',$this->Auth->user('email'));        // $this->Auth->allow('login','add');
 
         /*

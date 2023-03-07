@@ -46,7 +46,7 @@
     background: #214162 !important;
     position: absolute !important;
     z-index: -1 !important;
-    margin-top: -140px !important;
+    /* margin-top: -140px !important; */
 
 }
 .main_bt {

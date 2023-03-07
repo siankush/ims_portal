@@ -57,9 +57,9 @@ p {
                         <a href="/admin/users/admin" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard</span></a>
                         
                      </li>
-                     <li><a href="/admin/insurances-company/index"><i class="fa fa-clock-o orange_color"></i> <span>Insurance Companies</span></a></li>
+                     <li><a href="/insurance-companies/index"><i class="fa fa-clock-o orange_color"></i> <span>Insurance Companies</span></a></li>
                     
-                     <li><a href="#"><i class="fa fa-table purple_color2"></i> <span>Insurance Policy</span></a></li>
+                     <li><a href="/insurance-policies/index"><i class="fa fa-table purple_color2"></i> <span>Insurance Policy</span></a></li>
                    
                      <li><a href="/admin/users/"><i class="fa fa-briefcase blue1_color"></i> <span>Users</span></a></li>
                    

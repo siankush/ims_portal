@@ -79,6 +79,11 @@ color: blue;
 font-size: 18px;
 }
 
+select#insurancecomapny {
+    border: 1px solid #CED4DA;
+    color: #495057;
+}
+
 .error-message{
     color: red;
 }    

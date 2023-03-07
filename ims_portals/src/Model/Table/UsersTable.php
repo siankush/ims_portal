@@ -83,10 +83,10 @@ class UsersTable extends Table
         ]);
 
         $validator
-            ->scalar('contact_no')
-            ->maxLength('contact_no', 10)
-            ->requirePresence('contact_no', 'create')
-            ->notEmptyString('contact_no','Please fill the contact');
+            ->scalar('contact_number')
+            ->maxLength('contact_number', 10)
+            ->requirePresence('contact_number', 'create')
+            ->notEmptyString('contact_number','Please fill the contact');
 
         $validator
             ->scalar('address')

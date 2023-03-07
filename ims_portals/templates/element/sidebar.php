@@ -288,7 +288,7 @@
             </a>
             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/ContactsListing/userlisting">Basic table</a></li>
+                <li class="nav-item"> <a class="nav-link" href="/ContactListings/userlisting">Basic table</a></li>
               </ul>
             </div>
           </li>

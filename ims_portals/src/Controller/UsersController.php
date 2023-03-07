@@ -64,6 +64,7 @@ class UsersController extends AppController
      */
     public function register()
     {       
+        $this->loadModel('InsuranceCompanies');
 
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
@@ -78,25 +79,50 @@ class UsersController extends AppController
 
             $this->Flash->set('user not saved');
         }
-        $this->set(compact('user'));
+        $insuranceCompanies = $this->InsuranceCompanies->find('list', ['keyField' => 'id', 'valueField' => 'name']);
+
+        $this->set(compact('user','insuranceCompanies'));
 
     }
 
     public function login(){
-                        
-            $this->request->allowMethod(['get','post']);
-            $result = $this->Authentication->getResult();    
-            if ($result->isValid()) {            
-                return $this->redirect(['controller'=>'ContactsListing', 'action'=>'userlisting']);
-            }
-            // display error if user submitted and authentication failed
-            if ($this->request->is('post') && !$result->isValid()) {
-                $this->Flash->error(__('Invalid username or password'));
-                // $this->request->is('post');
-            }           
+                    
+        $this->request->allowMethod(['get','post']);
+        $result = $this->Authentication->getResult();    
+        if ($result && $result->isValid()) {
+            $user = $this->Authentication->getIdentity();
+            // dd($user);
+            if ($user->status == 0) {
+                // $redirect = $this->request->getQuery('redirect', [
+                //     'controller' => 'Insurance-Companies',
+                //     'action' => 'index',
+                // ]);
+                $this->Flash->error(__('you are not authorised'));
+
+                return $this->redirect('/users/logout');
+
+                
+
+                
+            } elseif ($user->status == 1) {
+                // $redirect = $this->request->getQuery('redirect', [
+                //     'controller' => 'users',
+                //     'action' => 'login',
+                // ]);
+                return $this->redirect('/contact-listings/userlisting');
+
+            }          
+            // return $this->redirect($redirect);
+            $this->Flash->error(__('you are not authorised'));
+        }
+        // display error if user submitted and authentication failed
+        if ($this->request->is('post') && !$result->isValid()) {
+            $this->Flash->error(__('Invalid username or password'));
+            // $this->request->is('post');
+        }               
         
     }
-
+  
     public function logout()
     {
         $result = $this->Authentication->getResult();        
@@ -151,9 +177,13 @@ class UsersController extends AppController
     }
     
     public function dashboard(){   
-
+        $this->loadModel('CompanyAssets');
     $this->viewBuilder()->setLayout('dashboardlayout');   
-    $user = $this->Authentication->getIdentity();
+    $id = $this->Authentication->getIdentity();
+    // dd($id);
+//     $companyAsset = $this->CompanyAssets->find('all')->where(['contact_listing_id'=> $id]);  
+//    echo count($companyAsset);
+//     die;
     // echo ($user->first_name);
     $this->set(compact('user'));
     // $this->set(compact('users','user'));    

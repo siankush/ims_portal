@@ -35,7 +35,7 @@
                     <td><?= h($user->first_name) ?></td>
                     <td><?= h($user->last_name) ?></td>
                     <td><?= h($user->email) ?></td>
-                    <td><?= h($user->contact_no) ?></td>
+                    <td><?= h($user->contact_number) ?></td>
                     <td><?= h($user->address) ?></td>
                     <td><?= h($user->status) ?></td>
                     <td><?= h($user->deleted) ?></td>
