@@ -15477,3 +15477,2444 @@ Referer URL: http://localhost:8765/insurance-companies/edit/1
 Client IP: 127.0.0.1
 2023-03-07 05:04:45 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
 2023-03-07 05:04:45 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:32 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:32 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:32 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:32 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/colors.css
+Referer URL: http://localhost:8765/admin
+Client IP: 127.0.0.1
+2023-03-07 05:14:32 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:32 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:33 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:33 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:33 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:33 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:33 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:33 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:33 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:33 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:33 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:33 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:33 error: [Cake\Http\Exception\MissingControllerException] Controller class Images could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /images/layout_img/pattern_h.png
+Referer URL: http://localhost:8765/admin
+Client IP: 127.0.0.1
+2023-03-07 05:14:34 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:34 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:36 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:36 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:36 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/colors.css
+Referer URL: http://localhost:8765/insurance-companies/index
+Client IP: 127.0.0.1
+2023-03-07 05:14:37 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:37 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:37 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:37 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:37 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:37 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:37 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:37 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:37 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:37 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:37 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:37 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:37 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:37 error: [Cake\Controller\Exception\MissingActionException] Action InsuranceCompaniesController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'InsuranceCompaniesController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /insurance-companies/images/layout_img/pattern_h.png
+Referer URL: http://localhost:8765/insurance-companies/index
+Client IP: 127.0.0.1
+2023-03-07 05:14:38 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:38 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:40 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:40 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:40 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:40 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/colors.css
+Referer URL: http://localhost:8765/insurance-policies/index
+Client IP: 127.0.0.1
+2023-03-07 05:14:40 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:40 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:40 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:40 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:40 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:40 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:41 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:41 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:41 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:41 error: [Cake\Controller\Exception\MissingActionException] Action InsurancePoliciesController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'InsurancePoliciesController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /insurance-policies/images/layout_img/pattern_h.png
+Referer URL: http://localhost:8765/insurance-policies/index
+Client IP: 127.0.0.1
+2023-03-07 05:14:41 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:41 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:58 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:58 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:58 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:58 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:58 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:58 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:58 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /js/asset/off-canvas.js%22.js
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:14:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:59 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:59 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:59 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:14:59 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:14:59 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:14:59 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:14:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face1.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face2.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face3.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face4.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:00 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:00 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:00 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:01 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:01 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face5.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:01 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:01 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:01 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face6.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:15:01 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:01 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:09 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:09 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:09 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:09 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:09 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:10 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:10 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:10 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /js/asset/off-canvas.js%22.js
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:10 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:10 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:10 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:10 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:10 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:10 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:10 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:10 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:10 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:10 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:11 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face1.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:11 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face2.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:11 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face3.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:11 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face4.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:11 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:11 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:11 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:11 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:12 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:12 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:12 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:12 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:12 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:12 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:12 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face5.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:12 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:12 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:12 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:12 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 40
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:113
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:170
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:359
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Database/Query.php:254
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /var/www/html/ims_portals/src/Controller/ContactListingsController.php:105
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/view/images/faces/face6.jpg
+Referer URL: http://localhost:8765/contact-listings/view/20
+Client IP: 127.0.0.1
+2023-03-07 05:15:12 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:12 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:15:12 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:15:12 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:15:12 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:15:12 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:27 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:27 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:27 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:27 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/animate.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:28 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/flaticon.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:28 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/css/font-awesome.min.css
+Referer URL: http://localhost:8765/css/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:28 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Js could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /js/asset/off-canvas.js%22.js
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:28 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:28 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:28 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:28 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face1.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face2.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face3.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face4.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face5.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:29 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:29 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:29 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff2
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:30 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:30 error: [Cake\Controller\Exception\MissingActionException] Action ContactListingsController::images() could not be found, or is not accessible. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'ContactListingsController',
+  'action' => 'images',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:134
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /contact-listings/images/faces/face6.jpg
+Referer URL: http://localhost:8765/contact-listings/userlisting
+Client IP: 127.0.0.1
+2023-03-07 05:16:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:30 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:30 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.woff
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:30 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-SemiBold.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:30 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:30 warning: The datasource configuration "debug_kit" was not found.
+2023-03-07 05:16:30 warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2023-03-07 05:16:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/ims_portals/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/html/ims_portals/webroot/index.php:40
+
+Request URL: /css/fonts/Nunito/Nunito-Regular.ttf
+Referer URL: http://localhost:8765/css/asset/vertical-layout-light/style.css
+Client IP: 127.0.0.1
+2023-03-07 05:16:31 warning: Unable to save request. Check your debug_kit datasource connection or ensure that PDO SQLite extension is enabled.
+2023-03-07 05:16:31 warning: The datasource configuration "debug_kit" was not found.
