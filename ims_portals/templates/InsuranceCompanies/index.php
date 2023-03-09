@@ -9,7 +9,7 @@
 <div class="insurancesCompany index content" style="margin-top: 120px;">
 
 <div class="container-fluid">
-<h1 style="padding-bottom:70px; text-align:center;font-weight:800;font-size:35px;">USERS LISTINGS</h1>
+<h1 style="padding-bottom:70px; text-align:center;font-weight:800;font-size:35px;">COMPANIES LISTINGS</h1>
         <table class="table table-hover" >
 
             <thead>
@@ -29,10 +29,10 @@
                     <td>
                     <?php  if($insuranceCompany->status == 1) : ?>
                             
-                            <?= $this->Form->postLink(__('Online'),['action' => 'userstatus', $insuranceCompany->id, $insuranceCompany->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $insuranceCompany->id)]) ?>
+                            <?= $this->Form->postLink(__('Active'),['action' => 'userstatus', $insuranceCompany->id, $insuranceCompany->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $insuranceCompany->id)]) ?>
                             <?php else : ?>
                                 
-                                <?= $this->Form->postLink(__('Offline'), ['action' => 'userstatus', $insuranceCompany->id, $insuranceCompany->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $insuranceCompany->id)]) ?>
+                                <?= $this->Form->postLink(__('Deactivate'), ['action' => 'userstatus', $insuranceCompany->id, $insuranceCompany->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $insuranceCompany->id)]) ?>
                                 <?php endif; ?> 
                     </td>
                     <td class="actions">

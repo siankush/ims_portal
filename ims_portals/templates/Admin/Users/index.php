@@ -28,10 +28,12 @@
             </tr>
             </thead>
             <tbody>
+            <?php $n = $this->Paginator->counter('{{start}}') ?>
+
             <?php foreach ($users as $user): ?>
                 <?php if($user->deleted==1): ?>
             <tr id="#tabledata_user">
-            <td><?= $this->Number->format($user->id) ?></td>
+            <td><?= h($n); ?></td>
                     <td><?= h($user->first_name) ?></td>
                     <td><?= h($user->last_name) ?></td>
                     <td><?= h($user->email) ?></td>
@@ -48,6 +50,8 @@
                    
             </tr>
             <?php endif; ?>
+            <?php $n++; ?>
+
             <?php endforeach; ?>
 
             </tbody>
@@ -57,7 +61,7 @@
             <?= $this->Paginator->first('<< ' . __('first')) ?>
             <?= $this->Paginator->prev('< ' . __('previous')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('next/admin') . ' >') ?>
             <?= $this->Paginator->last(__('last') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(__('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')) ?></p>

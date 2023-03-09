@@ -41,10 +41,10 @@ a {
                     <td>
                     <?php  if($insurancePolicy->status == 1) : ?>
                             
-                            <?= $this->Form->postLink(__('Online'),['action' => 'userstatus', $insurancePolicy->id, $insurancePolicy->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $insurancePolicy->id)]) ?>
+                            <?= $this->Form->postLink(__('Active'),['action' => 'userstatus', $insurancePolicy->id, $insurancePolicy->status],['class'=>'badge badge-sm bg-gradient-success'], ['confirm' => __('Are you sure you want to Inactive ?', $insurancePolicy->id)]) ?>
                             <?php else : ?>
                                 
-                                <?= $this->Form->postLink(__('Offline'), ['action' => 'userstatus', $insurancePolicy->id, $insurancePolicy->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $insurancePolicy->id)]) ?>
+                                <?= $this->Form->postLink(__('Deactivate'), ['action' => 'userstatus', $insurancePolicy->id, $insurancePolicy->status],['class'=>'badge badge-sm bg-gradient-secondary'], ['confirm' => __('Are you sure you want to Active ?', $insurancePolicy->id)]) ?>
                                 <?php endif; ?> 
                     </td>
                     <td class="actions">
