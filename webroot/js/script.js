@@ -12,12 +12,12 @@ $(document).ready(function(){
     
 
     $('#uname').hide();
-    $('#firstName').keyup(function(){
+    $('#name').keyup(function(){
         username_check();
     });
 
     function username_check(){
-        var user_val = $('#firstName').val();                
+        var user_val = $('#name').val();                
 
         if(user_val.length == ''){
             $('#uname').show();
@@ -116,17 +116,17 @@ $(document).ready(function(){
         var email_val = $('#email').val(); 
         var mailformat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;               
 
-        $.ajax({
-            type:'post',
-            url: 'http://localhost:8765/users/register',
-            data: {
-                'check_Emailbtn':1,
-                'email':email_val,
-            },
-            success: function (response) {
-                console.log(response);
-            }
-        });
+        // $.ajax({
+        //     type:'post',
+        //     url: 'http://localhost:8765/users/register',
+        //     data: {
+        //         'check_Emailbtn':1,
+        //         'email':email_val,
+        //     },
+        //     success: function (response) {
+        //         console.log(response);
+        //     }
+        // });
 
         if(email_val.length == ''){
             $('#uemail').show();
@@ -171,12 +171,12 @@ $(document).ready(function(){
     //----------------------phone validation--------------
 
     $('#uphone').hide();
-    $('#contact').keyup(function(){
+    $('#phone').keyup(function(){
         phone_check();
     });
                 
     function phone_check(){
-        var phone_val = $('#contact').val();           
+        var phone_val = $('#phone').val();           
 
         if(phone_val.length == ''){
             $('#uphone').show();
@@ -310,7 +310,7 @@ $(document).ready(function(){
         $('#submit').click(function(){
             fname_err = true;
             lname_err = true;
-            umail_err = true;
+            email_err = true;
             phone_err = true;
             pass_err = true;
             conpass_err = true;
@@ -318,7 +318,7 @@ $(document).ready(function(){
 
             username_check();
             lastname_check();
-            user_mail_check();
+            user_mail_check();            
             phone_check();
             password_check();
             con_password();
@@ -330,7 +330,7 @@ $(document).ready(function(){
             //     $("#radio").html("* please select one");
             //     return false; }
 
-            if((fname_err == true)&&(lname_err == true)&&(umail_err == true)&&(phone_err == true)&&(pass_err == true)&&
+            if((fname_err == true)&&(lname_err == true)&&(email_err == true)&&(phone_err == true)&&(pass_err == true)&&
             (conpass_err == true)&&(address_err == true)){
                 return true;                
             }else{

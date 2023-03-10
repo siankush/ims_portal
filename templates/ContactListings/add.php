@@ -22,21 +22,27 @@
                 </div>
                 
                 <div class="form-group">                  
-                <?php echo $this->Form->control("name",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Name']); ?>
+                <?php echo $this->Form->control("name",['label'=>false,'id'=>'name', 'class'=>'form-control form-control-lg','placeholder'=>'Name','required'=>false]); ?>
+                <span id="uname"></span>
+
                 </div>
                 <div class="form-group">                
-                  <?php echo $this->Form->control("email",['label'=>false,'id'=>'exampleInputEmail1', 'class'=>'form-control form-control-lg','placeholder'=>'Email']); ?>                  
+                  <?php echo $this->Form->control("email",['label'=>false,'id'=>'email', 'class'=>'form-control form-control-lg','placeholder'=>'Email','required'=>false]); ?>                  
+                  <span id="uemail"></span>
+
                 </div>
                 <div class="form-group">                  
-                <?php echo $this->Form->control("phone",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Phone']); ?>
+                <?php echo $this->Form->control("phone",['label'=>false,'id'=>'phone', 'class'=>'form-control form-control-lg','placeholder'=>'Phone','required'=>false]); ?>
+                <span id="uphone"></span>
                 </div>
                 <div class="form-group">                  
-                  <?php echo $this->Form->control("address",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','placeholder'=>'Address']); ?>                  
+                  <?php echo $this->Form->control("address",['label'=>false,'id'=>'address', 'class'=>'form-control form-control-lg','placeholder'=>'Address','required'=>false]); ?>                  
+                  <span id="uaddress"></span>
                 </div>
 
                 <div class="mt-3">
                   <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a> -->
-                  <?= $this->Form->button(__('Submit'),['class'=>'btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn']) ?>
+                  <?= $this->Form->button(__('Submit'),['class'=>'btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn','id'=>'submit']) ?>
 
                 </div>
                
@@ -69,3 +75,7 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
+
+
+
+  

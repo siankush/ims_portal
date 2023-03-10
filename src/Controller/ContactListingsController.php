@@ -35,33 +35,81 @@ class ContactListingsController extends AppController
         $this->set(compact('contactListings'));
     }
 
-    public function userlisting(){
+    // public function userlisting(){
             
+    //     $result = $this->Authentication->getIdentity();
+    //     $id = $result['id'];        
+    //     // $contactListings = $this->paginate($this->ContactListings);
+        
+    //                 $contactListings = $this->ContactListings->find('all')->where(['user_id'=> $id])->all();  
+    //                 // dd($contactListings);
+    //                 // $contacts = $this->ContactListings->find('all')->where(['user_id'=> $this])
+
+    //     // $this->paginate = [
+    //     //     'contain' => ['Users'],
+    //     // ];
+    //     // $this->paginate = [
+    //     //     'contain' => ['CompanyAssets'],
+    //     // ];
+    //     // $contactListings = $this->paginate($this->ContactListings,[
+    //     //     'contain' => ['CompanyAssets'],
+    //     //     'limit' => 10,
+    //     //     'order' => [
+    //     //         'id' => 'desc',
+    //     //     ],
+    //     // ]);
+
+        
+       
+    //     // $this->set(compact('contactListings'));
+       
+    //     $this->set(compact('contactListings'));
+                
+    // }
+
+    public function userlisting(){
+            $this->loadModel('CompanyAssets');
         $result = $this->Authentication->getIdentity();
         $id = $result['id'];        
         // $contactListings = $this->paginate($this->ContactListings);
         
-                    $contactListings = $this->ContactListings->find('all')->where(['user_id'=> $id])->all();  
+                    // $contactListings = $this->paginate($this->ContactListings->find('all')->contain('CompanyAssets')->where(['ContactListings.user_id'=> $id])->all());  
+                    $contactListings = $this->paginate($this->ContactListings->find('all')
+    ->contain('CompanyAssets')
+    ->where(['ContactListings.user_id' => $id]),
+    ['limit' => 10]
+);
+
+                
+                   
+                   
                     // $contacts = $this->ContactListings->find('all')->where(['user_id'=> $this])
 
         // $this->paginate = [
         //     'contain' => ['Users'],
         // ];
         // dd($contactListings);
+        // $contactListings = $this->paginate($this->ContactListings->find()->where($conditions));
 
-        $contactListings = $this->paginate($this->ContactListings,[
-            'contain' => ['CompanyAssets'],
-            'limit' => 4,
-            'order' => [
-                'id' => 'desc',
-            ],
-        ]);
+        // $contactListings = $this->paginate($this->ContactListings,[
+        //     'contain' => ['CompanyAssets'],
+        //     // 'limit' => 4,
+        //     'order' => [
+        //         'id' => 'desc',
+        //     ],
+        // ]);
        
         // $this->set(compact('contactListings'));
+        // $companyAsset = $this->CompanyAssets->find('all');  
        
+        
+        
+        
         $this->set(compact('contactListings'));
                 
     }
+
+
 
     public function userstatus($id = null, $status){
            
@@ -115,16 +163,30 @@ class ContactListingsController extends AppController
         //     'contain' => [],
         // ]);
         $companyAsset = $this->CompanyAssets->newEmptyEntity();
-        if ($this->request->is('post')) {
-            $companyAsset = $this->CompanyAssets->patchEntity($companyAsset, $this->request->getData());
+
+            if ($this->request->is(['patch', 'post', 'put'])) {
+                $companyAsset = $this->CompanyAssets->patchEntity($companyAsset, $this->request->getData());
             if ($this->CompanyAssets->save($companyAsset)) {
                  
                 $this->Flash->success(__('The company asset has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller'=>'contact-listings','action' => 'view',$contactListings->id]);
             }
             $this->Flash->error(__('The company asset could not be saved. Please, try again.'));
+            // if ($this->request->is(['patch', 'post', 'put'])) {
+            //     $contactListings = $this->ContactListings->patchEntity($contactListings, $this->request->getData());
+            //     if ($this->ContactListings->save($contactListings)) {
+            //         $this->Flash->success(__('The contacts listing has been saved.'));
+    
+            //         return $this->redirect(['action' => 'index']);
+            //     }
+            //     $this->Flash->error(__('The contacts listing could not be saved. Please, try again.'));
+            // }
         }
+
+       
+
+        
         $users = $this->CompanyAssets->Users->find('list', ['limit' => 200])->all();
 
         // dd($insuranceCompany);
@@ -138,17 +200,19 @@ class ContactListingsController extends AppController
         // ->select(['status'])
         // ->toArray();
         // $insuranceStatus = $this->InsurancePolicies->get($id);
-//         $companyAsset = $this->CompanyAssets->find('all')->contain('InsurancePolicies')->where(['contact_listing_id'=> $id])->all();        
+        $companyAssetss = $this->CompanyAssets->find('all')->contain(['InsurancePolicies','InsuranceCompanies'])->where(['contact_listing_id'=> $id])->all();        
+        // $companyAssets1 = $this->CompanyAssets->find()->where(['contact_listing_id'=> $id])->sumOf('premium');        
+        // $companyname = $this->CompanyAssets->find('all')->contain('InsuranceCompanies')->where(['contact_listing_id'=> $id])->all();        
 //         foreach($companyAsset->insurance_policy as $a){
 //             echo $a->name;
 //         }
 //         die;
-//         dd($companyAsset);
+        // dd($companyAssets1);
 //    echo count($companyAsset);
 //     die;
         // dd($companyAsset);
         
-        $this->set(compact('contactListings','companyAsset','result','insuranceCompanies','insurancePolicies','insurancePremium'));
+        $this->set(compact('contactListings','companyAsset','companyAssetss','result','insuranceCompanies','insurancePolicies','insurancePremium'));
     }
 
     /**

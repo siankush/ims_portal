@@ -1,32 +1,85 @@
+
 <?php
 /**
  * @var \App\View\AppView $this
- * @var \App\Model\Entity\InsurancePolicy $insurancePolicy
- * @var \Cake\Collection\CollectionInterface|string[] $insuranceCompanies
+ * @var \App\Model\Entity\User $user
  */
-
 ?>
+<?php echo $this->element('sidebar1') ?>
+<style>
+    .users.form.content {
+    background: #214162;
+    color: black;
+    width: 1000px;
+    padding: 40px;
+    border: 11px solid #ff5722;
+    margin-top: -85px;
+}
+legend {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+label{
+    color:white;
+}
+
+.formdesign {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  background-color: #ff5722;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #000;
+}
+input#status, input#deleted {
+    display: none;
+}
+/* 
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+</style>
+<div class="container-fluid">
+
 <div class="row">
-    <aside class="column">
-        <div class="side-nav">
-            <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Insurance Policies'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-        </div>
-    </aside>
+
     <div class="column-responsive column-80">
-        <div class="insurancePolicies form content">
-            <?= $this->Form->create($insurancePolicy) ?>
+        <div class="users form content">
+        <?= $this->Form->create($insurancePolicy , ['type'=>'file']) ?>
             <fieldset>
                 <legend><?= __('Add Insurance Policy') ?></legend>
               
                 <?php
-                    echo $this->Form->control('insurance_company_id');
-                    echo $this->Form->control('name');                    
-                    echo $this->Form->control('premium');                    
+                    echo $this->Form->control('insurance_company_id',['class'=>'formdesign']);
+                    echo $this->Form->control('name',['class'=>'formdesign']);                    
+                    echo $this->Form->control('premium',['class'=>'formdesign']);      
+                    echo $this->Form->control('image_file', ['type' => 'file','id'=>'image']);
+              
                 ?>
             </fieldset>
-            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->button(__('Submit'),['class'=>'submit']) ?>
             <?= $this->Form->end() ?>
         </div>
     </div>
 </div>
+</div>
+

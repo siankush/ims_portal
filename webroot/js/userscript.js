@@ -99,12 +99,12 @@ $(document).on("click", ".delete-user", function(){
         // alert(data);
         
            if (data['status'] == 0) {
-                alert(data['message']);
+                // alert(data['message']);
             } else {
              swal("Good job!", "The contactlisting has been saved!", "success");
    
               }
-               $('#change-status').load('/ContactsListing/userlisting #change-status');
+               $('#change-status').load('/ContactListings/userlisting #change-status');
                  $('#myModal').hide();
                  $('.modal-backdrop').remove();
    

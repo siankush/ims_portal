@@ -48,7 +48,7 @@ class ContactListingsTable extends Table
             'joinType' => 'INNER',
         ]);
 
-        $this->hasOne('CompanyAssets');
+        $this->hasMany('CompanyAssets');
 
     }
 
@@ -80,7 +80,12 @@ class ContactListingsTable extends Table
             ->scalar('phone')
             ->maxLength('phone', 11)
             ->requirePresence('phone', 'create')
-            ->notEmptyString('phone');
+            ->notEmptyString('phone')
+            ->add('phone', [
+                'phone' => [
+                    'rule' => ['numeric']
+                ]
+            ])  ;      
 
         $validator
             ->scalar('address')

@@ -19,15 +19,41 @@ class UsersController extends AppController
      * @return \Cake\Http\Response|null|void Renders view
      */
     public function admin(){
-        $this->viewBuilder()->setLayout('admin');
+        $this->loadModel('Users');
+        $this->loadModel('InsuranceCompanies');
+        $this->loadModel('InsurancePolicies');
+        $this->loadModel('CompanyAssets');
+                $this->viewBuilder()->setLayout('admin');
+
+                $insuranceCompanies = $this->InsuranceCompanies->find('all')->all();
+                $insurancePolicies = $this->InsurancePolicies->find('all')->all();
+                $user = $this->Users->find('all')->all();
+                // $companyAssetss = $this->CompanyAssets->find('all')->contain(['InsurancePolicies'])->all();    
+                // dd($companyAssetss);    
+
+                $companyAssetss = $this->CompanyAssets->find('all')->contain(['InsurancePolicies'])->all();        
+
+                $this->set(compact('user' ,'insuranceCompanies','insurancePolicies','companyAssetss'));
+
+
+
     }
 
      public function index()
     {
-        $users = $this->paginate($this->Users);
+        $user = $this->Authentication->getIdentity();
 
-        $this->set(compact('users'));
+
+        $users = $this->paginate($this->Users,[
+            'limit' => 4,
+            'order' => [
+                'id' => 'desc',
+            ],
+        ]);
+        $this->set(compact('users' ,'user'));
         $this->viewBuilder()->setLayout('admin');
+
+
 
     }
 
@@ -75,6 +101,18 @@ class UsersController extends AppController
 
     }
 
+    public function getuser($id = null)
+    {   
+    
+    
+       $id = $_GET['id'];
+       $user = $this->Users->get($id);
+   
+ 
+    
+        echo json_encode($user);
+        exit;
+     }
     /**
      * Edit method
      *
@@ -86,17 +124,31 @@ class UsersController extends AppController
     {
         $this->viewBuilder()->setLayout('admin');
 
+        $data = $this->request->getData();
+ 
+         $id = $this->request->getData('id');
+
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+
+                 echo json_encode(array(
+                     "status" => 1,
+                     "message" => "The contactlisting  has been saved.",
+                 ));
+                 exit;
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
+            echo json_encode(array(
+                "status" => 0,
+                "message" => "The contactlisting could not be saved. Please, try again.",
+            ));
+            exit;
+      
         }
         $this->set(compact('user'));
     }
@@ -108,17 +160,34 @@ class UsersController extends AppController
      * @return \Cake\Http\Response|null|void Redirects to index.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function delete($id = null)
+    public function deleteuser($id = null)
     {
-        $this->request->allowMethod(['post', 'delete']);
-        $user = $this->Users->get($id);
-        if ($this->Users->delete($user)) {
-            $this->Flash->success(__('The user has been deleted.'));
-        } else {
-            $this->Flash->error(__('The user could not be deleted. Please, try again.'));
-        }
-
-        return $this->redirect(['action' => 'index']);
+        if ($this->request->is('ajax')) {     
+            
+            $this->autoRender = false;
+ 
+            $id = $this->request->getData('id');
+            
+                     
+             $deletestatus = $this->request->getData('deleted');
+                   
+             $user = $this->Users->get($id);
+                     // dd($car);
+                      
+             if($deletestatus == 1)
+ 
+                $user->deleted = 0;
+                  else
+                 $user->deleted = 1;
+             
+                 if($this->Users->save($user)){
+                     echo json_encode(array(
+                        "status" => 1,
+                         "message" => "The user has been deleted."
+                         )); 
+             
+                 }           
+         }
     }
     public function logout()
     {
@@ -166,22 +235,22 @@ class UsersController extends AppController
 
 
         $this->request->allowMethod(['get','post']);
-        $result = $this->Authentication->getResult();    
+        $result = $this->Authentication->getResult(); 
         if ($result && $result->isValid()) {
             $user = $this->Authentication->getIdentity();
             // dd($user);
-            if ($user->status == 0) {
+            if ($user->auth == 0) {
                 // $redirect = $this->request->getQuery('redirect', [
                 //     'controller' => 'Insurance-Companies',
                 //     'action' => 'index',
                 // ]);
-                return $this->redirect('/insurance-companies/index');
+                return $this->redirect('/admin/users/admin');
 
                
                 
 
                 
-            } elseif ($user->status == 1) {
+            } elseif ($user->auth == 1) {
                 // $redirect = $this->request->getQuery('redirect', [
                 //     'controller' => 'users',
                 //     'action' => 'login',
@@ -200,6 +269,23 @@ class UsersController extends AppController
             $this->Flash->error(__('Invalid username or password'));
             // $this->request->is('post');
         }               
+    }
+    public function userstatus($id = null, $status){
+           
+        $this->request->allowMethod(['post']);
+        $user = $this->Users->get($id);
+    
+        if($status == 1){
+        $user->status = 0;
+       
+        }else{
+        $user->status = 1;
+        }
+        if($this->Users->save($user)){
+            $this->Flash->success(__('The status has been changed.'));
+    
+        }
+        return $this->redirect('http://localhost:8765/admin/users/');
     }
 
 

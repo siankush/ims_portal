@@ -92,10 +92,10 @@ class CompanyAssetsTable extends Table
             ->requirePresence('premium', 'create')
             ->notEmptyString('premium');
 
-        $validator
-            ->dateTime('term_length')
-            ->requirePresence('term_length', 'create')
-            ->notEmptyDateTime('term_length');
+        // $validator
+        //     ->dateTime('term_length')
+        //     ->requirePresence('term_length', 'create')
+        //     ->notEmptyDateTime('term_length');
 
         $validator
             ->scalar('status')

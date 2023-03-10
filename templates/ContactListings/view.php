@@ -4,6 +4,54 @@
  * @var \App\Model\Entity\ContactListings $contactListings
  */
 ?>
+<style>
+  .clt{
+    display: none;
+  }
+
+  td {
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.error-message {
+    display: none;
+    
+}
+button.btn.btn-primary {
+    margin-bottom: 17px;
+    float: right;
+}
+i.fa-solid.fa-xmark {
+    color: black;
+    font-size: 23px;
+}
+.auth .auth-form-light {
+    background: #ffffff;
+    padding-bottom: 79px !important;
+}
+label {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+}
+span.badge {
+    font-size: 22px;
+    font-weight: 600;
+}
+table.table.table-hover {
+    /* border: 1px solid black; */
+    background: white;
+    border-radius: 20px;
+}
+th {
+    font-size: 17px !important;
+    font-weight: 800 !important;
+}
+.table td img, .jsgrid .jsgrid-table td img {
+    width: 65px;
+    height: 60px;
+    border-radius: 100%;
+}
+</style>
 <div class="row">
     <!-- <aside class="column"> -->
         <!-- <div class="side-nav"> -->
@@ -71,6 +119,19 @@
                   <!-- <h4 class="card-title">Basic Table</h4> -->
                   <!-- <h3><?= h($contactListings->name) ?> -->
                   <!-- <?= $this->Html->link(__('Add Policy'), [ $contactListings->id], ['class' => 'btn btn-primary float-right mb-4 data-bs-toggle="modal" data-bs-target="#exampleModal"']) ?> -->
+                  <?php $totalPrice = 0;
+foreach ($companyAssetss as $company) {
+    $totalPrice += $company->insurance_policy->premium;
+
+    // echo $company->insurance_policy->premium;
+} 
+// $totalPrice = $companyAssetss->sumOf('premium');
+?>
+                 
+                  <h3>Total Policies : <span class="badge"><?php echo count($companyAssetss); ?></span></h3>
+                  <h3>Total Premium Price : <span class="badge"><?php echo $totalPrice;; ?></span></h3>
+
+                  <!-- <h2 style="text-align: center;">Contact View</h2> -->
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Add Policy
                   </button>
@@ -100,10 +161,10 @@
                             <th><?= __('Address') ?></th>
                             <td><?= h($contactListings->address) ?></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <th><?= __('Status') ?></th>
                             <td><?= h($contactListings->status) ?></td>
-                        </tr>
+                        </tr> -->
                         <!-- <tr>
                             <th><?= __('Id') ?></th>
                             <td><?= $this->Number->format($contactListings->id) ?></td>
@@ -124,10 +185,43 @@
             
           </div>
         </div>
-        
+<!--   -->
+
+<div class="content-wrapper">
+<div class="container">  
+<table class="table table-hover">
+  <h2 style="text-align: center; margin-bottom:20px;">Insurance List  </h2>
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Image</th>
+        <th>Insurance Company </th>
+        <th>Insurance Policy</th>
+        <th>Premium</th>
+        <th>Term Length</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php $n=1; ?>
+
+    <?php foreach($companyAssetss as $company){ ?>
+
+      <tr>
+        <td><?php echo $n ?></td>
+        <td><?php   echo $this->Html->image($company->insurance_policy->image);  ?></td>
+        <td><?php   echo $company->insurance_company->name; ?></td>
+        <td><?php   echo $company->insurance_policy->name;  ?></td>
+        <td><?php   echo $company->insurance_policy->premium; ?></td>
+        <td><?php   echo $company->term_length; ?></td>
+      </tr>
      
+    </tbody>
+    <?php $n++; ?>
+  <?php } ?>
 
-
+  </table>
+    </div>
+    </div>
 
 
 
@@ -135,8 +229,8 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="exampleModalLabel">Add Policy</h5>
+        <i class="fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
       </div>
       <div class="modal-body">
       <div class="content-wrapper d-flex align-items-center auth px-0">
@@ -156,20 +250,22 @@
                 </div>
 
                 <div class="form-group">     
-                <?php echo $this->Form->control("insurance_company_id",['label'=>false,'id'=>'', 'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
+                <?php echo $this->Form->control("insurance_company_id",['id'=>'', 'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
                 </div>
                 <div class="form-group">    
-                <?php echo $this->Form->control("insurance_policy_id",['label'=>false,'id'=>'', 'options' => $insurancePolicies,'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
+                <?php echo $this->Form->control("insurance_policy_id",['id'=>'', 'options' => $insurancePolicies,'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
               </div>
                 <div class="form-group">     
-                <?php echo $this->Form->control("premium",['label'=>false,'id'=>'', 'options' => $insurancePremium,'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
+                <?php echo $this->Form->control("premium",['id'=>'', 'options' => $insurancePremium,'class'=>'form-control form-control-lg','id'=>'insurancecomapny','required'=>false]); ?>
                 </div>
-                <?php
-                echo $this->Form->control('term_length');
-                    echo $this->Form->control('status');
-                    echo $this->Form->control('deleted');
+                <label>Term Length</label><br>
+                  <?php echo $this->Form->radio('term_length',['3 month'=>'3 Month','6 month'=> '6 Month', '9 month'=>'9 Month']) ?>
+                <?php                
+                // echo $this->Form->control('term_length',['class'=>'clt','label'=>false]);
+                    echo $this->Form->control('status',['class'=>'clt','label'=>false]);
+                    echo $this->Form->control('deleted',['class'=>'clt','label'=>false]);
 ?>
-                <?php echo $this->Form->control('policy_status',['value'=>'0']); ?>
+                <?php echo $this->Form->control('policy_status',['value'=>'1', 'class'=>'clt','label'=>false]); ?>
 
                 <div class="mt-3">
                   <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a> -->
@@ -181,10 +277,7 @@
           </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+
     </div>
   </div>
 </div>

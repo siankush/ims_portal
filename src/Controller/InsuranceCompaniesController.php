@@ -20,9 +20,15 @@ class InsuranceCompaniesController extends AppController
     {
         $this->viewBuilder()->setLayout('admin');
 
-        $insuranceCompanies = $this->paginate($this->InsuranceCompanies);
-
-        $this->set(compact('insuranceCompanies'));
+        $insuranceCompanies = $this->paginate($this->InsuranceCompanies,[
+            'limit' => 4,
+            'order' => [
+                'id' => 'desc',
+            ],
+        ]);
+        $this->loadModel('Users');
+        $user = $this->Authentication->getIdentity();
+        $this->set(compact('insuranceCompanies','user'));
     }
 
     public function userstatus($id = null, $status){
@@ -32,10 +38,9 @@ class InsuranceCompaniesController extends AppController
     
         if($status == 1){
         $insuranceCompany->status = 0;
-        $this->Flash->success(__('The status has been changed.'));
+       
         }else{
         $insuranceCompany->status = 1;
-        $this->Flash->success(__('The status has been changed.'));
         }
         if($this->InsuranceCompanies->save($insuranceCompany)){
             $this->Flash->success(__('The status has been changed.'));
@@ -90,9 +95,32 @@ class InsuranceCompaniesController extends AppController
      * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
+    public function getcompany($id = null)
+    {   
+    
+    
+       $id = $_GET['id'];
+       $insuranceCompany = $this->InsuranceCompanies->get($id);
+   
+ 
+    
+        echo json_encode($insuranceCompany);
+        exit;
+     }
+    /**
+     * Edit method
+     *
+     * @param string|null $id Insurance Company id.
+     * @return \Cake\Http\Response|null|void Redirects on successful edit, renders view otherwise.
+     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+     */
     public function edit($id = null)
     {
         $this->viewBuilder()->setLayout('admin');
+
+        $data = $this->request->getData();
+ 
+        $id = $this->request->getData('id');
 
         $insuranceCompany = $this->InsuranceCompanies->get($id, [
             'contain' => [],
@@ -100,11 +128,19 @@ class InsuranceCompaniesController extends AppController
         if ($this->request->is(['patch', 'post', 'put'])) {
             $insuranceCompany = $this->InsuranceCompanies->patchEntity($insuranceCompany, $this->request->getData());
             if ($this->InsuranceCompanies->save($insuranceCompany)) {
-                $this->Flash->success(__('The insurance company has been saved.'));
+                echo json_encode(array(
+                    "status" => 1,
+                    "message" => "The insurance company  has been saved.",
+                ));
+                exit;
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The insurance company could not be saved. Please, try again.'));
+            echo json_encode(array(
+                "status" => 0,
+                "message" => "The insurance company could not be saved. Please, try again.",
+            ));
+            exit;
         }
         $this->set(compact('insuranceCompany'));
     }
@@ -118,14 +154,40 @@ class InsuranceCompaniesController extends AppController
      */
     public function delete($id = null)
     {
-        $this->request->allowMethod(['post', 'delete']);
-        $insuranceCompany = $this->InsuranceCompanies->get($id);
-        if ($this->InsuranceCompanies->delete($insuranceCompany)) {
-            $this->Flash->success(__('The insurance company has been deleted.'));
-        } else {
-            $this->Flash->error(__('The insurance company could not be deleted. Please, try again.'));
-        }
+        // $this->request->allowMethod(['post', 'delete']);
+        // $insuranceCompany = $this->InsuranceCompanies->get($id);
+        // if ($this->InsuranceCompanies->delete($insuranceCompany)) {
+        //     $this->Flash->success(__('The insurance company has been deleted.'));
+        // } else {
+        //     $this->Flash->error(__('The insurance company could not be deleted. Please, try again.'));
+        // }
 
-        return $this->redirect(['action' => 'index']);
+        // return $this->redirect(['action' => 'index']);
+        if ($this->request->is('ajax')) {     
+            
+            $this->autoRender = false;
+ 
+            $id = $this->request->getData('id');
+            
+            $deletedstatus = $this->request->getData('deleted');   
+            
+            $insuranceCompany = $this->InsuranceCompanies->get($id);
+                     // dd($car);
+                      
+             if($deletedstatus == 1)
+ 
+                $insuranceCompany->deleted = 0;
+                  else
+                 $insuranceCompany->deleted = 1;
+             
+                 if($this->InsuranceCompanies->save($insuranceCompany)){
+                     echo json_encode(array(
+                        "status" => 1,
+                         "message" => "The insurance company has been deleted."
+                         )); 
+             
+                 }           
+         }
     }
 }
+

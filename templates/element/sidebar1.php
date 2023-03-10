@@ -39,6 +39,7 @@ p {
                         <a href="index.html"><?php echo $this->Html->image('logo/logo_icon.png',['class'=>'logo_icon img-responsive']) ?></a>
                      </div>
                   </div>
+                  
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
@@ -62,7 +63,6 @@ p {
                      <li><a href="/insurance-policies/index"><i class="fa fa-table purple_color2"></i> <span>Insurance Policy</span></a></li>
                    
                      <li><a href="/admin/users/"><i class="fa fa-briefcase blue1_color"></i> <span>Users</span></a></li>
-                   
                   </ul>
                </div>
             </nav>
@@ -88,7 +88,7 @@ p {
                                  <li>
                                     <a class="dropdown-toggle" data-toggle="dropdown"><?php echo $this->Html->image('layout_img/user_img.jpg',['class'=>'img-responsive rounded-circle']) ?><span class="name_user">John David</span></a>
                                     <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                       <a class="dropdown-item" href="/admin/users/logout"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                     </div>
                                  </li>
                               </ul>
@@ -98,3 +98,4 @@ p {
                   </nav>
                </div>
                <!-- end topbar -->
+             

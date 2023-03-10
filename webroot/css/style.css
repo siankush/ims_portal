@@ -67,10 +67,56 @@
 @import url(css/flaticon.css);
 @import url(css/font-awesome.min.css);
 
+/* my css */
+nav#sidebar {
+    background: #000038 !important;
+}
 
+.navbar .navbar-brand-wrapper {
+    background: #000038 !important;
+}
+.navbar .navbar-brand-wrapper {
+    background: #000038 !important;
+}
+.navbar-menu-wrapper.d-flex.align-items-center.justify-content-end {
+    background: #000038 !important;
+    color: white !important;
+}
+
+.navbar {
+    font-weight: 400;
+    transition: background 0.25s ease;
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -ms-transition: background 0.25s ease;
+    -webkit-box-shadow: none !important;
+    /* -moz-box-shadow: 0px 5px 21px -5px #CDD1E1; */
+    box-shadow: 0px !important;
+}
+span.menu-title {
+    color: white !important;
+}
+span.menu-title {
+    font-size: 16px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+i.icon-grid.menu-icon {
+    color: white !important;
+}
+i.fa-solid.fa-address-card {
+    color: white !important;
+}
+p.mb-4 {
+    font-size: 20px;
+    font-weight: 600;
+}
 /* Manoj */
 
 #user_id{
+    display: none;
+}
+.lct{
     display: none;
 }
 
@@ -117,33 +163,57 @@ select#insurancecomapny {
     display: none;
 }
 .message.success {
-    background: #e3fcec;
-    color: #1f9d55;
-    border-color: #51d88a;
+    background: #e3fcec !important;
+    color: #1f9d55 !important;
+    border-color: #51d88a !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    margin-top: 51px !important;
+    width: 800px !important;
+    text-align: center !important;
+    /* margin: 0 auto; */
+    /* display: block; */
+    margin-left: 360px !important;
 }
 .message.warning {
-    background: #fffabc;
-    color: #8d7b00;
-    border-color: #d3b800;
+    background: #fffabc !important;
+    color: #8d7b00 !important;
+    border-color: #d3b800 !important;
 }
 .message.error {
-    background: #fcebea;
-    color: #cc1f1a;
-    border-color: #ef5753;
+    background: #fcebea !important;
+    color: #cc1f1a !important;
+    border-color: #ef5753 !important;
+    position: absolute !important;
+    z-index: 1 !important;
+    margin-top: 31px !important;
+    margin-bottom: 30px !important;
+    width: 800px !important;
+    text-align: center !important;
+    /* margin: 0 auto; */
+    /* display: block; */
+    margin-left: 484px !important;
 }
 
 
 
 /* table desing */
 tr#\#tablerow_user{
-    background: #214162;
+    background: #000038;
     color: white;
     font-size: 17px;
     font-weight: 900 !important;
     border-bottom: 3px solid #ff5722 !important;
 }
 tr#\#tabledata_user {
-    background: #15283c;
+    background: #000038;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 22px !important;
+}
+.tabledata_user{
+    background: #000038;
     color: white;
     font-weight: 400;
     font-size: 16px;
@@ -170,17 +240,17 @@ tr#\#tabledata_user {
     padding: 0;
     border-radius: 10px;
     overflow: hidden;
-    border: 21px solid #ff5722 !important;
+    border: 8px solid #ff5722 !important;
 }
 tr#\#tablerow {
-    background: #214162;
+    background: #000038;
     color: white;
     font-size: 20px;
     font-weight: 900 !important;
     border-bottom: 3px solid #ff5722 !important;
 }
 tr#\#tabledata {
-    background: #15283c;
+    background: #000038;
     color: white;
     font-weight: 400;
     font-size: 16px;
@@ -192,7 +262,7 @@ tr#\#tabledata {
     margin-top: 180px;
 }
 .insurancesCompany.view.content {
-    background: #214162;
+    background: #000038;
     color: white;
     padding: 40px;
     border: 11px solid #ff5722;
@@ -681,7 +751,7 @@ a:focus {
     font-weight: 400;
     margin: 0;
     padding-left: 0;
-    color: #15283c;
+    color: #000038;
     letter-spacing: 0px;
 }
 
@@ -747,7 +817,7 @@ a:focus {
     width: 100%;
     padding-left: 280px;
     z-index: 2;
-    background: #15283c;
+    background: #000038;
     top: 0;
     transition: ease all 0.3s;
     left: 0;
@@ -874,7 +944,7 @@ a:focus {
 
 .icon_info ul.user_profile_dd li div a {
     font-size: 15px;
-    color: #15283c;
+    color: #000038;
     padding: 4px 15px;
     border-bottom: none;
     line-height: normal;
@@ -882,7 +952,7 @@ a:focus {
 
 .icon_info ul.user_profile_dd li div a span {
     font-size: 13px;
-    color: #15283c;
+    color: #000038;
     font-weight: normal;
     padding: 0;
     transition: all .3s ease-in-out;
@@ -978,7 +1048,7 @@ span {
 }
 
 #sidebar ul.components ul {
-    background: #214162;
+    background: #000038;
     padding: 20px 0;
 }
 
@@ -1022,7 +1092,7 @@ a[data-toggle="collapse"] {
 
 .page_title {
     background: #fff;
-    margin-top: 0;
+    margin-top: 38px;
     margin-bottom: 30px;
     padding: 25px 35px 22px 38px;
     box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
@@ -1034,7 +1104,7 @@ a[data-toggle="collapse"] {
 .page_title h2 {
     font-size: 20px;
     font-weight: 500;
-    color: #15283c;
+    color: #000038;
 }
 
 #sidebar.active+#content {
@@ -1043,7 +1113,7 @@ a[data-toggle="collapse"] {
 
 .topbar .navbar {
     padding: 0;
-    background: #15283c;
+    background: #000038;
     border: none;
     border-radius: 0;
 }
@@ -1054,7 +1124,7 @@ a[data-toggle="collapse"] {
 
 .sidebar_user_info {
     padding: 15px 25px;
-    background: #214162;
+    background: #000038;
 }
 
 .user_img img {
@@ -1148,7 +1218,7 @@ a[data-toggle="collapse"] {
 }
 
 #sidebar h4 {
-    background: #15283c;
+    background: #000038;
     margin: 0;
     padding: 21px 25px 19px;
     font-weight: 500;
@@ -1342,7 +1412,7 @@ a[data-toggle="collapse"] {
     text-transform: none;
     font-weight: 600;
     position: relative;
-    color: #15283c;
+    color: #000038;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -1457,7 +1527,7 @@ a[data-toggle="collapse"] {
 }
 
 .table_format.strp thead th {
-    background: #15283c;
+    background: #000038;
     border: none;
     color: #fff;
     vertical-align: middle;
@@ -1524,7 +1594,7 @@ a[data-toggle="collapse"] {
 }
 
 .dark_bg {
-    background: #214162;
+    background: #000038;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     margin-top: 0;
@@ -1729,7 +1799,7 @@ a[data-toggle="collapse"] {
 #testimonial_slider.carousel .carousel-control i {
     font-size: 20px;
     margin-right: 2px;
-    color: #15283c;
+    color: #000038;
     margin-top: -2px;
 }
 
@@ -1777,7 +1847,7 @@ a[data-toggle="collapse"] {
     border-radius: 5px 5px 0 0;
     padding: 35px 45px 32px;
     background-size: cover;
-    background-color: #214162;
+    background-color: #000038;
     position: relative;
 }
 
@@ -2070,7 +2140,7 @@ button.main_bt {
     text-align: center;
     font-size: 14px;
     font-weight: 300;
-    color: #214162;
+    color: #000038;
     padding: 25px 15px;
 }
 
@@ -2122,7 +2192,7 @@ button.main_bt {
 
 .widget_progress_bar .progress_no {
     font-size: 24px;
-    color: #15283c;
+    color: #000038;
     font-weight: 500;
     line-height: normal;
     margin: 0;
@@ -2377,7 +2447,7 @@ i.icon {
 
 .heading_section {
     border-top: solid #1ed085 2px;
-    background: #15283c;
+    background: #000038;
 }
 
 .heading_section h4 {
@@ -2452,7 +2522,7 @@ h2.invoice_head small {
 }
 
 .invoice_blog h4 {
-    color: #15283c;
+    color: #000038;
     background: #f8f8f8;
     padding: 15px 20px;
     font-weight: 400;
@@ -2467,7 +2537,7 @@ h2.invoice_head small {
 
 .invoice_blog p strong {
     font-weight: 500;
-    color: #15283c;
+    color: #000038;
 }
 
 .table_row thead {
@@ -2477,7 +2547,7 @@ h2.invoice_head small {
 .table_row thead tr {
     border: none;
     background: #f8f8f8;
-    color: #15283c;
+    color: #000038;
 }
 
 .table_row thead tr th {
@@ -2485,7 +2555,7 @@ h2.invoice_head small {
     font-size: 15px;
     font-weight: 500;
     padding: 14px 25px 14px;
-    color: #15283c;
+    color: #000038;
     text-transform: uppercase;
 }
 
@@ -2591,7 +2661,7 @@ p.note_cont {
 }
 
 .mail-box .sm-side .user-head {
-    background: #214162;
+    background: #000038;
     border-radius: 0;
     color: #fff;
     min-height: 80px;
@@ -2713,7 +2783,7 @@ ul.inbox-nav li a {
 ul.inbox-nav li a:hover,
 ul.inbox-nav li.active a,
 ul.inbox-nav li a:focus {
-    background: #214162;
+    background: #000038;
     color: #fff;
 }
 
@@ -2799,7 +2869,7 @@ ul.labels-info li a i {
     padding-top: 3px;
     text-transform: none;
     letter-spacing: 0;
-    color: #15283c;
+    color: #000038;
     font-size: 21px;
 }
 
@@ -3349,7 +3419,7 @@ table.projects tr td:first-child {
 }
 
 .table.projects thead.thead-dark th {
-    background: #15283c;
+    background: #000038;
     font-weight: 300;
     padding: 15px 15px;
 }

@@ -1,4 +1,20 @@
 <?php echo $this->element('sidebar1') ?>
+<style>
+.couter_icon i {
+    color: #00c6b5;
+    font-size: 50px;
+    line-height: normal;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+i.fa-solid.fa-file-invoice {
+    color: #00a0ff;
+}
+i.fa-solid.fa-chart-simple {
+    color: #1dff00;
+}
+</style>
                <!-- dashboard inner -->
                <div class="midde_cont">
                   <div class="container-fluid">
@@ -19,8 +35,8 @@
                               </div>
                               <div class="counter_no">
                                  <div>
-                                    <p class="total_no">2500</p>
-                                    <p class="head_couter">Welcome</p>
+                                    <p class="total_no"><?php echo count($user) ?></p>
+                                    <p class="head_couter">Total Agents</p>
                                  </div>
                               </div>
                            </div>
@@ -29,13 +45,13 @@
                            <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-clock-o blue1_color"></i>
+                                 <i class="fa-solid fa-building"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
                                  <div>
-                                    <p class="total_no">123.50</p>
-                                    <p class="head_couter">Average Time</p>
+                                    <p class="total_no"><?php echo count($insuranceCompanies) ?></p>
+                                    <p class="head_couter">Total Insurance Company</p>
                                  </div>
                               </div>
                            </div>
@@ -44,13 +60,13 @@
                            <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-cloud-download green_color"></i>
+                                 <i class="fa-solid fa-file-invoice"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
                                  <div>
-                                    <p class="total_no">1,805</p>
-                                    <p class="head_couter">Collections</p>
+                                    <p class="total_no"><?php echo count($insurancePolicies) ?></p>
+                                    <p class="head_couter">Total Insurance Policy</p>
                                  </div>
                               </div>
                            </div>
@@ -59,13 +75,20 @@
                            <div class="full counter_section margin_bottom_30">
                               <div class="couter_icon">
                                  <div> 
-                                    <i class="fa fa-comments-o red_color"></i>
+                                    <!-- <i class="fa fa-comments-o red_color"></i> -->
+                                    <i class="fa-solid fa-chart-simple"></i>
                                  </div>
                               </div>
                               <div class="counter_no">
                                  <div>
-                                    <p class="total_no">54</p>
-                                    <p class="head_couter">Comments</p>
+                                 <?php 
+                                    $totalPrice = 0;
+                                    foreach ($companyAssetss as $company) {
+                                       $totalPrice += $company->insurance_policy->premium;
+                                    }
+                                    ?>
+                                    <p class="total_no"><?php echo $totalPrice; ?></p>
+                                    <p class="head_couter">Total Premium Sales</p>
                                  </div>
                               </div>
                            </div>

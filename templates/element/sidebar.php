@@ -1,9 +1,60 @@
 <!-- partial:partials/_navbar.html -->
+<style>
+.page-body-wrapper {
+    min-height: calc(100vh - 60px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px !important;
+}
+.message.error {
+    background: #fcebea;
+    color: #cc1f1a;
+    border-color: #ef5753;
+    margin-top: 165px;
+    display: none;
+}
+#settings-trigger {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: none !important;
+    height: 45px;
+    width: 45px;
+    background: #4B49AC;
+    z-index: 99;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+</style>
 <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-      <a class="navbar-brand brand-logo mr-5" ><img src="<?= $baseurl ?>img/images/logo.svg" class="mr-2" alt="logo"/></a>
+      <a class="navbar-brand brand-logo mr-5" ><img src="<?= $baseurl ?>img/logo-svg.png" class="mr-2" alt="logo"/></a>
 
-    <a class="navbar-brand brand-logo-mini"><img src="<?= $baseurl ?>img/images/logo-mini.svg" alt="second logo"/></a>
+    <a class="navbar-brand brand-logo-mini"><img src="<?= $baseurl ?>img/logo-mini.svg" alt="second logo"/></a>
        
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -81,17 +132,17 @@
                 <i class="ti-settings text-primary"></i>
                 Settings
               </a>
-              <a class="dropdown-item">
+              <a class="dropdown-item" href="/users/logout">
                 <i class="ti-power-off text-primary"></i>
                 Logout
               </a>
             </div>
           </li>
-          <li class="nav-item nav-settings d-none d-lg-flex">
+          <!-- <li class="nav-item nav-settings d-none d-lg-flex">
             <a class="nav-link" href="#">
               <i class="icon-ellipsis"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="icon-menu"></span>
@@ -279,11 +330,18 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-
           <li class="nav-item">
+            <a class="nav-link" href="/contact-listings/userlisting">
+            <i class="fa-solid fa-address-card"></i>
+              <span class="menu-title">Contacts</span>
+            </a>
+          </li>
+          <img src="https://cdn.dribbble.com/users/5297140/screenshots/13995477/media/3769cfb75e2e53734862cc0a3bc1c732.gif" alt="" width="250px" height="300px" style="margin-top:50px">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/monISkguw8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="margin-top:80px ;"></iframe>
+          <!-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
               <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Tables</span>
+              <span class="menu-title">Contacts</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="tables">
@@ -292,7 +350,8 @@
               </ul>
             </div>
           </li>
-          
+           -->
           
         </ul>
       </nav>
+      

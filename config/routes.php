@@ -75,7 +75,7 @@ return static function (RouteBuilder $routes) {
         $builder->fallbacks();
     });
     Router::prefix('Admin', function(RouteBuilder $routes){
-       $routes->connect('/',['controller'=>'Users','action'=>'index']);
+       $routes->connect('/',['controller'=>'Users','action'=>'login']);
         $routes->fallbacks(DashedRoute::class);
     });
 

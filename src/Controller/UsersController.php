@@ -92,7 +92,12 @@ class UsersController extends AppController
         if ($result && $result->isValid()) {
             $user = $this->Authentication->getIdentity();
             // dd($user);
-            if ($user->status == 0) {
+            if($user['status'] == 0){
+                $this->Flash->error('Sorry Youre account has been deactivated by admin');
+                return $this->redirect(['controller'=>'Users','action'=>'logout']);
+
+            }
+            if ($user->auth == 0) {
                 // $redirect = $this->request->getQuery('redirect', [
                 //     'controller' => 'Insurance-Companies',
                 //     'action' => 'index',
@@ -104,12 +109,12 @@ class UsersController extends AppController
                 
 
                 
-            } elseif ($user->status == 1) {
+            } elseif ($user->auth == 1) {
                 // $redirect = $this->request->getQuery('redirect', [
                 //     'controller' => 'users',
                 //     'action' => 'login',
                 // ]);
-                return $this->redirect('/contact-listings/userlisting');
+                return $this->redirect('/users/dashboard');
 
             }          
             // return $this->redirect($redirect);
@@ -179,12 +184,13 @@ class UsersController extends AppController
     public function dashboard(){   
         $this->loadModel('CompanyAssets');
     $this->viewBuilder()->setLayout('dashboardlayout');   
-    $id = $this->Authentication->getIdentity();
+    $user = $this->Authentication->getIdentity();
     // dd($id);
 //     $companyAsset = $this->CompanyAssets->find('all')->where(['contact_listing_id'=> $id]);  
 //    echo count($companyAsset);
 //     die;
     // echo ($user->first_name);
+    
     $this->set(compact('user'));
     // $this->set(compact('users','user'));    
 

@@ -67,6 +67,23 @@ class InsurancePoliciesTable extends Table
             ->requirePresence('name', 'create')
             ->notEmptyString('name');
 
+        // $validator
+        //     ->allowEmptyFile('image')
+        //     ->notEmptyString('image', 'Please Select the image')
+        //     ->add('image', [
+        //         'mimeType' => [
+        //             'rule' => [
+        //                 'mimeType',
+        //                 ['image/jpg', 'image/png', 'image/jpeg'],
+        //                 'message' => 'Please upload only jpg',
+        //             ],
+        //             'fileSize' => [
+        //                 'rule' => ['fileSize', '<=', '1MB'],
+        //                 'message' => 'image',
+        //             ],
+        //         ]
+        //     ]);
+
         return $validator;
     }
 
